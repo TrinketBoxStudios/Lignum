@@ -10,3 +10,5 @@ Temp
 *.pidb
 Build
 Change/Assets/Testing/*
+GameScreenshots
+GameScreenshots/*
