@@ -24,7 +24,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.159226924, y: 2.20425582, z: -.5}
+  m_LocalPosition: {x: -4.41330004, y: -1.71701598, z: -.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -39,10 +39,22 @@ PolygonCollider2D:
   m_IsTrigger: 0
   m_Poly:
     m_Paths:
-    - - {x: 1.34991825, y: .927670002}
-      - {x: 1.38866472, y: -1.13217115}
-      - {x: -1.4505403, y: -1.18395698}
-      - {x: -1.44236326, y: .820825338}
+    - - {x: -1.57048559, y: 1.40778518}
+      - {x: -1.40342379, y: 1.78429413}
+      - {x: -.0351762772, y: 2.13188624}
+      - {x: 1.33267546, y: 2.32326674}
+      - {x: 2.11353135, y: 2.38050008}
+      - {x: 2.16081142, y: 1.76777434}
+      - {x: 1.39978862, y: 1.54609585}
+      - {x: .303582191, y: 1.33917499}
+      - {x: -.136026859, y: .838302433}
+      - {x: 2.32191181, y: -.309192896}
+      - {x: 5.87946033, y: -1.41266108}
+      - {x: 4.18582821, y: -1.85712862}
+      - {x: 2.33597517, y: -2.85476089}
+      - {x: -.504992962, y: -2.84310794}
+      - {x: -1.45884562, y: -2.06434202}
+      - {x: -1.58355665, y: .687937021}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -55,8 +67,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionDialogue:
-  - This be a test string yo
-  - And this be the second one, yo!
+  - A rickety bridge chillin out being rickety
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
