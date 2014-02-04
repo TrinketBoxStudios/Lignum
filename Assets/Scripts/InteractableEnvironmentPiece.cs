@@ -3,7 +3,9 @@ using System.Collections;
 
 public class InteractableEnvironmentPiece : MonoBehaviour 
 {
-	public string[] interactionDialogue;
+	public string[] childInteractionDialogue;
+	public string[] adultInteractionDialogue;
+	public string[] elderlyInteractionDialogue;
 	
 	private DialogueManager _dlgBox;
 
@@ -21,6 +23,25 @@ public class InteractableEnvironmentPiece : MonoBehaviour
 
 	void OnMouseDown()
 	{
-		_dlgBox.InitializeAndShowText(interactionDialogue);
+		switch(GameStateManager.GetInstance().currentAge)
+		{
+			case GameStateManager.Age.CHILD:
+			{
+				_dlgBox.InitializeAndShowText(childInteractionDialogue);
+				break;
+			}
+
+			case GameStateManager.Age.ADULT:
+			{
+				_dlgBox.InitializeAndShowText(adultInteractionDialogue);
+				break;
+			}
+
+			case GameStateManager.Age.ELDERLY:
+			{
+				_dlgBox.InitializeAndShowText(elderlyInteractionDialogue);
+				break;
+			}
+		}
 	}
 }
