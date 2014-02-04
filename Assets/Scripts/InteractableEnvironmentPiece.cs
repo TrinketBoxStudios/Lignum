@@ -23,7 +23,7 @@ public class InteractableEnvironmentPiece : MonoBehaviour
 
 	void OnMouseDown()
 	{
-		switch(GameStateManager.GetInstance().currentAge)
+		switch(GameStateManager.GetInstance().GetAge())
 		{
 			case GameStateManager.Age.CHILD:
 			{

@@ -68,6 +68,12 @@ public class DialogueManager : MonoBehaviour {
 
 	public void InitializeAndShowText( string[] dialogueStrings )
 	{
+		if(dialogueStrings.Length == 0)
+		{
+			Debug.LogError("Attempted to set text box strings to empty set", gameObject);
+			return;
+		}
+
 		//A bit of work for the garbage collector, possibly refactor later
 		DialogueStrings = dialogueStrings;
 

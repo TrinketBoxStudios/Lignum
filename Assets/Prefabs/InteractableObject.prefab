@@ -24,7 +24,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.41330004, y: -1.71701598, z: -.5}
+  m_LocalPosition: {x: -8.04001617, y: 2.66445303, z: -.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -39,22 +39,10 @@ PolygonCollider2D:
   m_IsTrigger: 0
   m_Poly:
     m_Paths:
-    - - {x: -1.57048559, y: 1.40778518}
-      - {x: -1.40342379, y: 1.78429413}
-      - {x: -.0351762772, y: 2.13188624}
-      - {x: 1.33267546, y: 2.32326674}
-      - {x: 2.11353135, y: 2.38050008}
-      - {x: 2.16081142, y: 1.76777434}
-      - {x: 1.39978862, y: 1.54609585}
-      - {x: .303582191, y: 1.33917499}
-      - {x: -.136026859, y: .838302433}
-      - {x: 2.32191181, y: -.309192896}
-      - {x: 5.87946033, y: -1.41266108}
-      - {x: 4.18582821, y: -1.85712862}
-      - {x: 2.33597517, y: -2.85476089}
-      - {x: -.504992962, y: -2.84310794}
-      - {x: -1.45884562, y: -2.06434202}
-      - {x: -1.58355665, y: .687937021}
+    - - {x: .693443298, y: 1.02171016}
+      - {x: .773886681, y: -.80611968}
+      - {x: -.520340919, y: -.799016714}
+      - {x: -.520905495, y: 1.03538084}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -66,8 +54,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23c4da1c61ca5d84db538b47ed0610ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionDialogue:
-  - A rickety bridge chillin out being rickety
+  childInteractionDialogue:
+  - 'I bet a tree this big weighs like a million billion pounds. '
+  adultInteractionDialogue:
+  - 'The trees here are so massive and sturdy. They don''t grow nearly this large
+    at home. '
+  elderlyInteractionDialogue:
+  - 'Only the best trees are picked for these wonderful houses, glad Sprig picked
+    a good one for himself. '
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

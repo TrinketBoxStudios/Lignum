@@ -32,4 +32,19 @@ public class GameStateManager : MonoBehaviour
 		return _instance;
 	}
 
+	public void AdvanceAge()
+	{
+		if(currentAge == Age.CHILD)
+			currentAge = Age.ADULT;
+		else if(currentAge == Age.ADULT)
+			currentAge = Age.ELDERLY;
+		else if(currentAge == Age.ELDERLY)
+			currentAge = Age.CHILD;
+	}
+
+	public Age GetAge()
+	{
+		return currentAge;
+	}
+
 }

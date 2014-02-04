@@ -74,6 +74,74 @@ NavMeshSettings:
     widthInaccuracy: 16.666666
     heightInaccuracy: 10
   m_NavMesh: {fileID: 0}
+--- !u!1 &210154200
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+  m_PrefabInternal: {fileID: 1787370633}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 210154201}
+  - 60: {fileID: 210154203}
+  - 114: {fileID: 210154202}
+  m_Layer: 0
+  m_Name: SprigHouse
+  m_TagString: Untagged
+  m_Icon: {fileID: -1500306622, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &210154201
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+  m_PrefabInternal: {fileID: 1787370633}
+  m_GameObject: {fileID: 210154200}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.67690825, y: 3.95835948, z: -.500000238}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1229315386}
+--- !u!114 &210154202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9,
+    type: 2}
+  m_PrefabInternal: {fileID: 1787370633}
+  m_GameObject: {fileID: 210154200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23c4da1c61ca5d84db538b47ed0610ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  childInteractionDialogue:
+  - Ooooh a neat wooden house thing! It looks like my house but kinda smaller.
+  adultInteractionDialogue:
+  - 'That house actually reminds me of the house I grew up in. Hopefully the owner
+    is friendly. '
+  elderlyInteractionDialogue:
+  - Ah, Sprig's house. I wonder if he still makes his green tea too sweet.
+--- !u!60 &210154203
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9,
+    type: 2}
+  m_PrefabInternal: {fileID: 1787370633}
+  m_GameObject: {fileID: 210154200}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Poly:
+    m_Paths:
+    - - {x: -2.41246247, y: 2.27244067}
+      - {x: 1.52630019, y: 2.28486514}
+      - {x: 1.60448575, y: -1.83085442}
+      - {x: .775067568, y: -2.1147511}
+      - {x: -.175346613, y: -2.25183988}
+      - {x: -1.93151021, y: -2.15877271}
+      - {x: -2.35816932, y: -2.06145167}
+      - {x: -2.53389192, y: -1.83262038}
+      - {x: -2.5941174, y: 1.27898812}
 --- !u!1001 &420431872
 Prefab:
   m_ObjectHideFlags: 0
@@ -81,6 +149,18 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1229315386}
     m_Modifications:
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: childInteractionDialogue.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: adultInteractionDialogue.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: elderlyInteractionDialogue.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
       propertyPath: m_Poly.m_Paths.Array.data[0].Array.size
       value: 5
@@ -181,6 +261,20 @@ Prefab:
       propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[7].y
       value: 4.05804586
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: childInteractionDialogue.Array.data[0]
+      value: 'I bet a tree this big weighs like a million billion pounds. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: adultInteractionDialogue.Array.data[0]
+      value: 'The trees here are so massive and sturdy. They don''t grow nearly this
+        large at home. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: elderlyInteractionDialogue.Array.data[0]
+      value: 'Only the best trees are picked for these wonderful houses, glad Sprig
+        picked a good one for himself. '
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
   m_RootGameObject: {fileID: 2133206818}
@@ -233,6 +327,18 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1229315386}
     m_Modifications:
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: childInteractionDialogue.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: adultInteractionDialogue.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: elderlyInteractionDialogue.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
       propertyPath: m_Poly.m_Paths.Array.data[0].Array.size
       value: 8
@@ -333,6 +439,20 @@ Prefab:
       propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[7].y
       value: 4.05804586
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: childInteractionDialogue.Array.data[0]
+      value: 'I bet a tree this big weighs like a million billion pounds. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: adultInteractionDialogue.Array.data[0]
+      value: 'The trees here are so massive and sturdy. They don''t grow nearly this
+        large at home. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: elderlyInteractionDialogue.Array.data[0]
+      value: 'Only the best trees are picked for these wonderful houses, glad Sprig
+        picked a good one for himself. '
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
   m_RootGameObject: {fileID: 983670405}
@@ -367,9 +487,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23c4da1c61ca5d84db538b47ed0610ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionDialogue:
-  - This be a test string yo
-  - And this be the second one, yo!
+  childInteractionDialogue:
+  - I bet if I run fast enough, I can make it past all the gaps in one try!
+  adultInteractionDialogue:
+  - Looks like I'll be going slow and steady across this, hopefully it can support
+    my weight...
+  elderlyInteractionDialogue:
+  - 'I could probably walk across this with my eyes closed by now, each plank is right
+    where it should be. '
 --- !u!60 &964769868
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -406,7 +531,7 @@ Transform:
   m_PrefabInternal: {fileID: 1458963327}
   m_GameObject: {fileID: 964769866}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.39455438, y: -1.04077506, z: -.5}
+  m_LocalPosition: {x: 2.39455438, y: -1.04077506, z: -.600000024}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1229315386}
@@ -450,9 +575,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23c4da1c61ca5d84db538b47ed0610ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionDialogue:
-  - This be a test string yo
-  - And this be the second one, yo!
+  childInteractionDialogue:
+  - 'I bet a tree this big weighs like a million billion pounds. '
+  adultInteractionDialogue:
+  - 'The trees here are so massive and sturdy. They don''t grow nearly this large
+    at home. '
+  elderlyInteractionDialogue:
+  - 'Only the best trees are picked for these wonderful houses, glad Sprig picked
+    a good one for himself. '
 --- !u!60 &983670408
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -544,7 +674,7 @@ Transform:
   m_PrefabInternal: {fileID: 1079076461}
   m_GameObject: {fileID: 1107021985}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -3.1463244, z: -1}
+  m_LocalPosition: {x: 0, y: -3.1463244, z: -2}
   m_LocalScale: {x: .723033249, y: .723032773, z: 1}
   m_Children:
   - {fileID: 1904801205}
@@ -719,7 +849,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1229315386}
   m_Layer: 0
-  m_Name: InteractablesContainer
+  m_Name: InterContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -739,6 +869,7 @@ Transform:
   - {fileID: 1554682773}
   - {fileID: 983670406}
   - {fileID: 2133206819}
+  - {fileID: 210154201}
   m_Father: {fileID: 0}
 --- !u!1001 &1244440743
 Prefab:
@@ -787,6 +918,18 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1229315386}
     m_Modifications:
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: childInteractionDialogue.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: adultInteractionDialogue.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: elderlyInteractionDialogue.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
       propertyPath: m_Poly.m_Paths.Array.data[0].Array.size
       value: 17
@@ -801,7 +944,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -.5
+      value: -.600000024
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
       propertyPath: m_LocalRotation.x
@@ -959,6 +1102,20 @@ Prefab:
       propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[16].y
       value: 3.31829286
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: childInteractionDialogue.Array.data[0]
+      value: I bet if I run fast enough, I can make it past all the gaps in one try!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: adultInteractionDialogue.Array.data[0]
+      value: Looks like I'll be going slow and steady across this, hopefully it can
+        support my weight...
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: elderlyInteractionDialogue.Array.data[0]
+      value: 'I could probably walk across this with my eyes closed by now, each plank
+        is right where it should be. '
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
   m_RootGameObject: {fileID: 964769866}
@@ -1004,9 +1161,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23c4da1c61ca5d84db538b47ed0610ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionDialogue:
-  - This be a test string yo
-  - And this be the second one, yo!
+  childInteractionDialogue:
+  - 'That bridge looks like it''s bouncy-ish. I''m gonna jump on it a bunch of times
+    to make sure. '
+  adultInteractionDialogue:
+  - Well at least the bridge to leave looks to be in decent shape.
+  elderlyInteractionDialogue:
+  - 'Glad to see the bridge to the rest of my friends is still in shape. '
 --- !u!60 &1554682775
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1034,6 +1195,50 @@ PolygonCollider2D:
       - {x: -1.45599747, y: -.568575621}
       - {x: -2.11340523, y: -.302221298}
       - {x: -2.11773491, y: .952147722}
+--- !u!1001 &1619275118
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -8.25408459
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -.674676418
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
+      propertyPath: levelToLoad
+      value: EndingScene
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
+  m_RootGameObject: {fileID: 1682335762}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &1650883954
 GameObject:
   m_ObjectHideFlags: 0
@@ -1125,6 +1330,18 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1229315386}
     m_Modifications:
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: childInteractionDialogue.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: adultInteractionDialogue.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: elderlyInteractionDialogue.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
       propertyPath: m_Poly.m_Paths.Array.data[0].Array.size
       value: 15
@@ -1281,9 +1498,246 @@ Prefab:
       propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[14].y
       value: .952147722
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: childInteractionDialogue.Array.data[0]
+      value: 'That bridge looks like it''s bouncy-ish. I''m gonna jump on it a bunch
+        of times to make sure. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: adultInteractionDialogue.Array.data[0]
+      value: Well at least the bridge to leave looks to be in decent shape.
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: elderlyInteractionDialogue.Array.data[0]
+      value: 'Glad to see the bridge to the rest of my friends is still in shape. '
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
   m_RootGameObject: {fileID: 1554682772}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
+--- !u!1 &1682335762
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
+  m_PrefabInternal: {fileID: 1619275118}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1682335766}
+  - 212: {fileID: 1682335765}
+  - 114: {fileID: 1682335764}
+  - 61: {fileID: 1682335763}
+  m_Layer: 0
+  m_Name: NavigationArrow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &1682335763
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100000, guid: 89e25d0f9f67d454d8a990819b128705,
+    type: 2}
+  m_PrefabInternal: {fileID: 1619275118}
+  m_GameObject: {fileID: 1682335762}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: 1.28000033, y: 1.28000033}
+  m_Center: {x: -1.1920929e-07, y: 0}
+--- !u!114 &1682335764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 89e25d0f9f67d454d8a990819b128705,
+    type: 2}
+  m_PrefabInternal: {fileID: 1619275118}
+  m_GameObject: {fileID: 1682335762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fb450d3fe73819438c7bb517ebd6253, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeTime: 1
+  levelToLoad: EndingScene
+--- !u!212 &1682335765
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200000, guid: 89e25d0f9f67d454d8a990819b128705,
+    type: 2}
+  m_PrefabInternal: {fileID: 1619275118}
+  m_GameObject: {fileID: 1682335762}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: -1
+  m_SortingOrder: 0
+  m_SortingLayerID: 4044169479
+  m_Sprite: {fileID: 21300000, guid: 1fb66a1b227f9f243b32f8edcf085c49, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!4 &1682335766
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
+  m_PrefabInternal: {fileID: 1619275118}
+  m_GameObject: {fileID: 1682335762}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.25408459, y: -.674676418, z: -2}
+  m_LocalScale: {x: 1.02231395, y: 1.02231312, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!1001 &1787370633
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1229315386}
+    m_Modifications:
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: childInteractionDialogue.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: adultInteractionDialogue.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: elderlyInteractionDialogue.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -2.67690825
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 3.95835948
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -.500000238
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Name
+      value: SprigHouse
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[2].x
+      value: 1.60448575
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[2].y
+      value: -1.83085442
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[3].x
+      value: .775067568
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[3].y
+      value: -2.1147511
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[4].x
+      value: -.175346613
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[4].y
+      value: -2.25183988
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[1].y
+      value: 2.28486514
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[1].x
+      value: 1.52630019
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[0].x
+      value: -2.41246247
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[0].y
+      value: 2.27244067
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[5].x
+      value: -1.93151021
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[5].y
+      value: -2.15877271
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[6].x
+      value: -2.35816932
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[6].y
+      value: -2.06145167
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[7].x
+      value: -2.53389192
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[7].y
+      value: -1.83262038
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: childInteractionDialogue.Array.data[0]
+      value: Ooooh a neat wooden house thing! It looks like my house but kinda smaller.
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: adultInteractionDialogue.Array.data[0]
+      value: 'That house actually reminds me of the house I grew up in. Hopefully
+        the owner is friendly. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: elderlyInteractionDialogue.Array.data[0]
+      value: Ah, Sprig's house. I wonder if he still makes his green tea too sweet.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[8].x
+      value: -2.5941174
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[8].y
+      value: 1.27898812
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+  m_RootGameObject: {fileID: 210154200}
   m_IsPrefabParent: 0
   m_IsExploded: 1
 --- !u!1 &1904801202
@@ -1398,9 +1852,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23c4da1c61ca5d84db538b47ed0610ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionDialogue:
-  - This be a test string yo
-  - And this be the second one, yo!
+  childInteractionDialogue:
+  - 'I bet a tree this big weighs like a million billion pounds. '
+  adultInteractionDialogue:
+  - 'The trees here are so massive and sturdy. They don''t grow nearly this large
+    at home. '
+  elderlyInteractionDialogue:
+  - 'Only the best trees are picked for these wonderful houses, glad Sprig picked
+    a good one for himself. '
 --- !u!60 &2133206821
 PolygonCollider2D:
   m_ObjectHideFlags: 0

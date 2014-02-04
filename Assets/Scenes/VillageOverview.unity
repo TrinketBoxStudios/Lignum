@@ -418,9 +418,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23c4da1c61ca5d84db538b47ed0610ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  childInteractionDialogue: []
-  adultInteractionDialogue: []
-  elderlyInteractionDialogue: []
+  childInteractionDialogue:
+  - 'That rope is way too high for me to reach, even if I was standing on my tippy
+    toes. '
+  adultInteractionDialogue:
+  - 'I hope whoever used that ladder last had something soft to land on. '
+  elderlyInteractionDialogue:
+  - 'That silly old ladder is still up there. I''ve yet to meet the fellow who put
+    it there. '
 --- !u!60 &433134959
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -433,12 +438,12 @@ PolygonCollider2D:
   m_IsTrigger: 0
   m_Poly:
     m_Paths:
-    - - {x: 2.10100937, y: 3.96512175}
+    - - {x: 2.1562748, y: 4.04802036}
       - {x: 2.16465855, y: -.913045406}
       - {x: 1.08545685, y: -.0950775146}
       - {x: .509782791, y: .923215151}
       - {x: -.62820816, y: .705178022}
-      - {x: -1.06012368, y: 2.17855501}
+      - {x: -1.2220571, y: 2.30450296}
       - {x: -2.00761676, y: 4.03293943}
 --- !u!1001 &437652263
 Prefab:
@@ -618,9 +623,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23c4da1c61ca5d84db538b47ed0610ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  childInteractionDialogue: []
-  adultInteractionDialogue: []
-  elderlyInteractionDialogue: []
+  childInteractionDialogue:
+  - 'These trees are ginormous! I bet you could make like, a hundred houses outa just
+    one of em. '
+  adultInteractionDialogue:
+  - Hundreds of years old, at least. Pretty magnificent pieces of nature.
+  elderlyInteractionDialogue:
+  - 'These trees have weathered many moons, and by the looks of it, they''ll be weathering
+    many more. '
 --- !u!60 &459003310
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1345,6 +1355,18 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1598043213}
     m_Modifications:
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: childInteractionDialogue.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: adultInteractionDialogue.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: elderlyInteractionDialogue.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
       propertyPath: m_Poly.m_Paths.Array.data[0].Array.size
       value: 19
@@ -1532,6 +1554,20 @@ Prefab:
     - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
       propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[18].y
       value: 4.01863098
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: childInteractionDialogue.Array.data[0]
+      value: 'These trees are ginormous! I bet you could make like, a hundred houses
+        outa just one of em. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: adultInteractionDialogue.Array.data[0]
+      value: Hundreds of years old, at least. Pretty magnificent pieces of nature.
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: elderlyInteractionDialogue.Array.data[0]
+      value: 'These trees have weathered many moons, and by the looks of it, they''ll
+        be weathering many more. '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
@@ -1765,6 +1801,18 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1598043213}
     m_Modifications:
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: childInteractionDialogue.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: adultInteractionDialogue.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: elderlyInteractionDialogue.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
       propertyPath: m_Poly.m_Paths.Array.data[0].Array.size
       value: 7
@@ -1803,11 +1851,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
       propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[0].x
-      value: 2.10100937
+      value: 2.1562748
       objectReference: {fileID: 0}
     - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
       propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[0].y
-      value: 3.96512175
+      value: 4.04802036
       objectReference: {fileID: 0}
     - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
       propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[3].x
@@ -1827,11 +1875,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
       propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[5].x
-      value: -1.06012368
+      value: -1.2220571
       objectReference: {fileID: 0}
     - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
       propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[5].y
-      value: 2.17855501
+      value: 2.30450296
       objectReference: {fileID: 0}
     - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
       propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[2].x
@@ -1864,6 +1912,20 @@ Prefab:
     - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
       propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[7].y
       value: 4.01344109
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: childInteractionDialogue.Array.data[0]
+      value: 'That rope is way too high for me to reach, even if I was standing on
+        my tippy toes. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: adultInteractionDialogue.Array.data[0]
+      value: 'I hope whoever used that ladder last had something soft to land on. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: elderlyInteractionDialogue.Array.data[0]
+      value: 'That silly old ladder is still up there. I''ve yet to meet the fellow
+        who put it there. '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
