@@ -20,7 +20,7 @@ TextureImporter:
   grayScaleToAlpha: 0
   generateCubemap: 0
   seamlessCubemap: 0
-  textureFormat: -1
+  textureFormat: -3
   maxTextureSize: 1024
   textureSettings:
     filterMode: -1
@@ -44,20 +44,20 @@ TextureImporter:
     - name: Rug_0
       rect:
         serializedVersion: 2
-        x: 7
+        x: 0
         y: 0
-        width: 1010
-        height: 215
+        width: 1024
+        height: 256
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
     - name: Rug_1
       rect:
         serializedVersion: 2
-        x: 1051
+        x: 1024
         y: 0
-        width: 990
-        height: 176
+        width: 1024
+        height: 256
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
   spritePackingTag: 
   userData: 
