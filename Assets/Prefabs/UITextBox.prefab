@@ -182,8 +182,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DialogueStrings:
-  - Wow would you look at that sexy string we got going on? And it wraps!
+  - 'You should not be seeing this string. '
   lineLength: 8.5
+  defaultInteractionSprite: {fileID: 21300000, guid: da09efab23e10bf44a1c7d1d82115974,
+    type: 3}
+  playerSpeakingSprite: {fileID: 21300000, guid: 91db62078078849488bbf57c0440dd65,
+    type: 3}
+  robotSpeakingSprite: {fileID: 21300000, guid: 91db62078078849488bbf57c0440dd65,
+    type: 3}
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1

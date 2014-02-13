@@ -7,6 +7,12 @@ public class DialogueManager : MonoBehaviour {
 
 	public float lineLength = 8.5f;
 
+	public Sprite defaultInteractionSprite;
+	public Sprite playerSpeakingSprite;
+	public Sprite robotSpeakingSprite;
+
+	private bool playerLastSpoke = false;
+
 	private int index = 0;
 
 	private AudioSource _aud;
@@ -66,7 +72,7 @@ public class DialogueManager : MonoBehaviour {
 		SetTextBoxText(text);
 	}
 
-	public void InitializeAndShowText( string[] dialogueStrings )
+	public void InitializeAndShowText( string[] dialogueStrings, bool characterDialogue = false )
 	{
 		if(dialogueStrings.Length == 0)
 		{
@@ -78,6 +84,21 @@ public class DialogueManager : MonoBehaviour {
 		DialogueStrings = dialogueStrings;
 
 		SetTextBoxTextByIndex(0);
+
+		if(characterDialogue == true && playerLastSpoke == true)
+		{
+			_sprRender.sprite = robotSpeakingSprite;
+			playerLastSpoke = false;
+		}
+		else if(characterDialogue == true && playerLastSpoke == false)
+		{
+			_sprRender.sprite = playerSpeakingSprite;
+			playerLastSpoke = true;
+		}
+		else
+		{
+			_sprRender.sprite = defaultInteractionSprite;
+		}
 
 		ShowMe();
 	}

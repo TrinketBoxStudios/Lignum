@@ -1,0 +1,11 @@
+[LargeTree]
+CHILD: 
+ADULT: 
+SENIOR: 
+[/LargeTree]
+
+[VillageHouses]
+CHILD: 
+ADULT: 
+SENIOR: 
+[/VillageHouses]
