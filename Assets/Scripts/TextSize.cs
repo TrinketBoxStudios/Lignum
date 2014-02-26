@@ -34,7 +34,8 @@ public class TextSize
     }
 
     private void getSpace()
-    {//the space can not be got alone
+    {
+        //the space can not be got alone
         string oldText = textMesh.text;
 
         textMesh.text = "a";
@@ -87,7 +88,7 @@ public class TextSize
 		
 		foreach(string line in lines){
 			textMesh.text += wrapLine(line, wantedWidth);
-			textMesh.text += "\n";
+			//textMesh.text += "\n";
 		}
 	}
 	

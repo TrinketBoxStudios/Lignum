@@ -23,6 +23,10 @@ public class DialogueManager : MonoBehaviour {
 
 	private Color savedSpriteColor, savedTextColor;
 
+    private string _currentAppendingText;
+
+    private float _lineOffset;
+
 	// Use this for initialization
 	void Start () 
 	{
@@ -54,12 +58,43 @@ public class DialogueManager : MonoBehaviour {
 		}
 
 	}
+    
+    private void StartAppendingText()
+    {
+        if (_currentAppendingText.Length == 0)
+            return;
+
+        //Get the top character of the string
+        _textMesh.text += _currentAppendingText.Substring(0, 1);
+
+        //pop the first character off
+        _currentAppendingText = _currentAppendingText.Remove(0, 1);
+
+        //Wrap the text around the line length
+        TextSize ts = new TextSize(_textMesh);
+
+        if (ts.GetTextWidth(_textMesh.text) - _lineOffset >= lineLength)
+        {
+            _lineOffset += lineLength;
+
+            ts.FitToWidth(lineLength);
+        }
+
+        Invoke("StartAppendingText", 0.05f);
+    }
 
 	private void SetTextBoxText(string text)
 	{
-		_textMesh.text = System.Text.RegularExpressions.Regex.Unescape(text);
-		TextSize ts = new TextSize(_textMesh);
-		ts.FitToWidth(lineLength);
+        //Clear the textmesh since we're going to be appending to it
+        _textMesh.text = "";
+
+        //clear out the offset number
+        _lineOffset = 0.0f;
+
+        //unescape the string to allow newlines
+        _currentAppendingText = System.Text.RegularExpressions.Regex.Unescape(text);
+
+        StartAppendingText();
 	}
 
 	private void SetTextBoxTextByIndex( int ind )
