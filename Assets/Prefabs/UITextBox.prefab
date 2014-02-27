@@ -184,12 +184,7 @@ MonoBehaviour:
   DialogueStrings:
   - 'You should not be seeing this string. '
   lineLength: 8.5
-  defaultInteractionSprite: {fileID: 21300000, guid: da09efab23e10bf44a1c7d1d82115974,
-    type: 3}
-  playerSpeakingSprite: {fileID: 21300000, guid: 91db62078078849488bbf57c0440dd65,
-    type: 3}
-  robotSpeakingSprite: {fileID: 21300000, guid: 91db62078078849488bbf57c0440dd65,
-    type: 3}
+  readTime: .0250000004
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
