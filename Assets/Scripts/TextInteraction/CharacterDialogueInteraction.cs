@@ -3,9 +3,10 @@ using System.Collections;
 
 public class CharacterDialogueInteraction : MonoBehaviour 
 {
-	public string[] childInteractionDialogue;
-	public string[] adultInteractionDialogue;
-	public string[] elderlyInteractionDialogue;
+	public string scriptCharacterPrefix; 
+	private string[] childInteractionDialogue;
+	private string[] adultInteractionDialogue;
+	private string[] elderlyInteractionDialogue;
 	
 	private DialogueManager _dlgBox;
 
@@ -13,6 +14,10 @@ public class CharacterDialogueInteraction : MonoBehaviour
 	void Start () 
 	{
 		_dlgBox = FindObjectOfType<DialogueManager>();
+
+		childInteractionDialogue = LoadInteractionScript(scriptCharacterPrefix + "ChildScript");
+		adultInteractionDialogue =  LoadInteractionScript(scriptCharacterPrefix + "AdultScript");
+		elderlyInteractionDialogue =  LoadInteractionScript(scriptCharacterPrefix + "ElderlyScript");
 	}
 	
 	// Update is called once per frame
@@ -20,6 +25,23 @@ public class CharacterDialogueInteraction : MonoBehaviour
 	{
 	
 	}
+
+	string[] LoadInteractionScript( string fileName )
+	{
+		TextAsset scriptFile = (TextAsset)Resources.Load (fileName, typeof(TextAsset));
+
+		if (scriptFile != null) 
+		{
+			return scriptFile.text.Split (new string[] { "\n", "\r\n" }, System.StringSplitOptions.RemoveEmptyEntries);
+		} 
+		else 
+		{
+			Debug.LogError("File could not be opened");
+		}
+
+		return null;
+	}
+
 
 	void OnMouseDown()
 	{
