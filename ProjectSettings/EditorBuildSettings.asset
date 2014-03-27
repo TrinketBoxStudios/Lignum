@@ -19,3 +19,5 @@ EditorBuildSettings:
     path: Assets/Scenes/EgbertHouseInterior.unity
   - enabled: 1
     path: Assets/Scenes/EndingScene.unity
+  - enabled: 1
+    path: Assets/Scenes/GiovanniHouseExterior.unity

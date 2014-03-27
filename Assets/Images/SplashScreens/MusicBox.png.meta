@@ -20,8 +20,8 @@ TextureImporter:
   grayScaleToAlpha: 0
   generateCubemap: 0
   seamlessCubemap: 0
-  textureFormat: -2
-  maxTextureSize: 1024
+  textureFormat: -3
+  maxTextureSize: 4096
   textureSettings:
     filterMode: 2
     aniso: 1
@@ -44,407 +44,407 @@ TextureImporter:
     - name: MusicBox_0
       rect:
         serializedVersion: 2
-        x: 18
-        y: 2078
-        width: 419
-        height: 294
+        x: 0
+        y: 2048
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: MusicBox_1
       rect:
         serializedVersion: 2
-        x: 528
-        y: 2078
-        width: 424
-        height: 294
+        x: 512
+        y: 2048
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: MusicBox_2
       rect:
         serializedVersion: 2
-        x: 1038
-        y: 2078
-        width: 424
-        height: 294
+        x: 1024
+        y: 2048
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: MusicBox_3
       rect:
         serializedVersion: 2
-        x: 1553
-        y: 2078
-        width: 419
-        height: 294
+        x: 1536
+        y: 2048
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: MusicBox_4
       rect:
         serializedVersion: 2
-        x: 2063
-        y: 2078
-        width: 424
-        height: 294
+        x: 2048
+        y: 2048
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: MusicBox_5
       rect:
         serializedVersion: 2
-        x: 2578
-        y: 2078
-        width: 419
-        height: 294
+        x: 2560
+        y: 2048
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: MusicBox_6
       rect:
         serializedVersion: 2
-        x: 3088
-        y: 2078
-        width: 424
-        height: 294
+        x: 3072
+        y: 2048
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: MusicBox_7
       rect:
         serializedVersion: 2
-        x: 3598
-        y: 2078
-        width: 424
-        height: 294
+        x: 3584
+        y: 2048
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: MusicBox_8
       rect:
         serializedVersion: 2
-        x: 4113
-        y: 2078
-        width: 419
-        height: 294
+        x: 4096
+        y: 2048
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: MusicBox_9
       rect:
         serializedVersion: 2
-        x: 4623
-        y: 2078
-        width: 424
-        height: 294
+        x: 4608
+        y: 2048
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: MusicBox_10
       rect:
         serializedVersion: 2
-        x: 18
-        y: 1568
-        width: 419
-        height: 294
+        x: 0
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: MusicBox_11
       rect:
         serializedVersion: 2
-        x: 528
-        y: 1568
-        width: 424
-        height: 294
+        x: 512
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: MusicBox_12
       rect:
         serializedVersion: 2
-        x: 1038
-        y: 1568
-        width: 424
-        height: 294
+        x: 1024
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: MusicBox_13
       rect:
         serializedVersion: 2
-        x: 1553
-        y: 1568
-        width: 419
-        height: 294
+        x: 1536
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: MusicBox_14
       rect:
         serializedVersion: 2
-        x: 2063
-        y: 1568
-        width: 424
-        height: 294
+        x: 2048
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: MusicBox_15
       rect:
         serializedVersion: 2
-        x: 2578
-        y: 1568
-        width: 419
-        height: 294
+        x: 2560
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: MusicBox_16
       rect:
         serializedVersion: 2
-        x: 3088
-        y: 1568
-        width: 424
-        height: 294
+        x: 3072
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: MusicBox_17
       rect:
         serializedVersion: 2
-        x: 3598
-        y: 1568
-        width: 424
-        height: 294
+        x: 3584
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: MusicBox_18
       rect:
         serializedVersion: 2
-        x: 4113
-        y: 1568
-        width: 419
-        height: 294
+        x: 4096
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: MusicBox_19
       rect:
         serializedVersion: 2
-        x: 4623
-        y: 1568
-        width: 424
-        height: 294
+        x: 4608
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: MusicBox_20
       rect:
         serializedVersion: 2
-        x: 18
-        y: 1058
-        width: 419
-        height: 289
+        x: 0
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: MusicBox_21
       rect:
         serializedVersion: 2
-        x: 528
-        y: 1058
-        width: 429
-        height: 289
+        x: 512
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: MusicBox_22
       rect:
         serializedVersion: 2
-        x: 1043
-        y: 1058
-        width: 429
-        height: 319
+        x: 1024
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: MusicBox_23
       rect:
         serializedVersion: 2
-        x: 1553
-        y: 1058
-        width: 419
-        height: 364
+        x: 1536
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: MusicBox_24
       rect:
         serializedVersion: 2
-        x: 2068
-        y: 1058
-        width: 419
-        height: 404
+        x: 2048
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: MusicBox_25
       rect:
         serializedVersion: 2
-        x: 2573
-        y: 1058
-        width: 424
-        height: 414
+        x: 2560
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: MusicBox_26
       rect:
         serializedVersion: 2
-        x: 3078
-        y: 1058
-        width: 434
-        height: 424
+        x: 3072
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: MusicBox_27
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 543
-        width: 429
-        height: 429
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: MusicBox_28
       rect:
         serializedVersion: 2
-        x: 518
-        y: 543
-        width: 434
-        height: 429
+        x: 0
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: MusicBox_29
       rect:
         serializedVersion: 2
-        x: 1033
-        y: 543
-        width: 429
-        height: 429
+        x: 512
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: MusicBox_30
       rect:
         serializedVersion: 2
-        x: 1543
-        y: 543
-        width: 429
-        height: 429
+        x: 1024
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: MusicBox_31
       rect:
         serializedVersion: 2
-        x: 2053
-        y: 543
-        width: 434
-        height: 429
+        x: 1536
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: MusicBox_32
       rect:
         serializedVersion: 2
-        x: 2568
-        y: 543
-        width: 429
-        height: 429
+        x: 2048
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: MusicBox_33
       rect:
         serializedVersion: 2
-        x: 3078
-        y: 543
-        width: 434
-        height: 434
+        x: 2560
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: MusicBox_34
       rect:
         serializedVersion: 2
-        x: 3593
-        y: 543
-        width: 429
-        height: 429
+        x: 3072
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: MusicBox_35
       rect:
         serializedVersion: 2
-        x: 4103
-        y: 543
-        width: 429
-        height: 429
+        x: 3584
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: MusicBox_36
       rect:
         serializedVersion: 2
-        x: 4613
-        y: 543
-        width: 434
-        height: 429
+        x: 4096
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: MusicBox_37
       rect:
         serializedVersion: 2
-        x: 8
-        y: 33
-        width: 429
-        height: 424
+        x: 4608
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: MusicBox_38
       rect:
         serializedVersion: 2
-        x: 518
-        y: 33
-        width: 434
-        height: 424
+        x: 0
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: MusicBox_39
       rect:
         serializedVersion: 2
-        x: 1033
-        y: 33
-        width: 429
-        height: 424
+        x: 512
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: MusicBox_40
       rect:
         serializedVersion: 2
-        x: 1543
-        y: 33
-        width: 429
-        height: 424
+        x: 1024
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: MusicBox_41
       rect:
         serializedVersion: 2
-        x: 2053
-        y: 33
-        width: 434
-        height: 424
+        x: 1536
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: MusicBox_42
       rect:
         serializedVersion: 2
-        x: 2568
-        y: 33
-        width: 429
-        height: 424
+        x: 2048
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: MusicBox_43
       rect:
         serializedVersion: 2
-        x: 3078
-        y: 33
-        width: 434
-        height: 424
+        x: 2560
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: MusicBox_44
       rect:
         serializedVersion: 2
-        x: 3593
-        y: 33
-        width: 429
-        height: 424
+        x: 3072
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
+    - name: MusicBox_45
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
   spritePackingTag: 
   userData: 
