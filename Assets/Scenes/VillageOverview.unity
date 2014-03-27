@@ -1940,6 +1940,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1676140712}
   - 212: {fileID: 1676140713}
+  - 114: {fileID: 1676140714}
   m_Layer: 0
   m_Name: LevelBackground
   m_TagString: Untagged
@@ -1983,6 +1984,18 @@ SpriteRenderer:
   m_SortingLayerID: 2196553743
   m_Sprite: {fileID: 21300000, guid: 0dff7436ce655924fb229d04fa075de3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1676140714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400008, guid: d6057dc6366be744d8ea3ebb17d93027,
+    type: 2}
+  m_PrefabInternal: {fileID: 1636850259}
+  m_GameObject: {fileID: 1676140711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ee027c02d3919c4f99cdc85761b9232, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1897160139
 GameObject:
   m_ObjectHideFlags: 0

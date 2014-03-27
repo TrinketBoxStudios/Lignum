@@ -159,6 +159,12 @@ public class DialogueManager : MonoBehaviour {
 
 			ShowSpecifiedText(_currentTBIdentifier);
 		}
+		else
+		{
+			HideAllTextBoxes();
+
+			ShowSpecifiedText("I");
+		}
 
 		//Clear the textmesh since we're going to be appending to it
 		_textMesh.text = "";

@@ -1,2 +1,2 @@
-R:This is a line one :P
+R:This is a line one 
 P:This is a line two for seniors
