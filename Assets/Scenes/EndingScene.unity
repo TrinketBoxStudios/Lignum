@@ -554,6 +554,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 579296408}
   - 212: {fileID: 579296409}
+  - 114: {fileID: 579296410}
   m_Layer: 0
   m_Name: LevelBackground
   m_TagString: Untagged
@@ -597,6 +598,18 @@ SpriteRenderer:
   m_SortingLayerID: 2196553743
   m_Sprite: {fileID: 21300000, guid: b6818fd7395042748a0a1b62a8f21c12, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &579296410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400008, guid: d6057dc6366be744d8ea3ebb17d93027,
+    type: 2}
+  m_PrefabInternal: {fileID: 687010073}
+  m_GameObject: {fileID: 579296407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ee027c02d3919c4f99cdc85761b9232, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &625147430
 Prefab:
   m_ObjectHideFlags: 0
@@ -1182,7 +1195,7 @@ Transform:
   m_GameObject: {fileID: 1422529447}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 6.50407553, y: .60921818, z: -1}
-  m_LocalScale: {x: 1.02231395, y: 1.02231312, z: 1}
+  m_LocalScale: {x: 1.42403424, y: 1.42402983, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
 --- !u!1 &1502493335
@@ -1607,6 +1620,11 @@ Prefab:
       propertyPath: levelToLoad
       value: MainMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 1fb66a1b227f9f243b32f8edcf085c49,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
   m_RootGameObject: {fileID: 1422529447}

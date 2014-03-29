@@ -270,7 +270,7 @@ SpriteRenderer:
   m_SortingLayer: -1
   m_SortingOrder: 0
   m_SortingLayerID: 4044169479
-  m_Sprite: {fileID: 21300000, guid: c4b48847742e21146889c951653c07be, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e4eb94fd43650f14b9ed91b99d711ef0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &87415276
 Transform:
@@ -280,7 +280,7 @@ Transform:
   m_GameObject: {fileID: 87415272}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 8.12636662, y: .0266195536, z: -2}
-  m_LocalScale: {x: 1.02231395, y: 1.02231312, z: 1}
+  m_LocalScale: {x: 1.42403424, y: 1.42402983, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
 --- !u!1 &146123211
@@ -772,7 +772,7 @@ Transform:
   m_GameObject: {fileID: 1107334154}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.08409452, y: -1.84500682, z: -2}
-  m_LocalScale: {x: 1.02231395, y: 1.02231312, z: 1}
+  m_LocalScale: {x: 1.42403424, y: 1.42402983, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
 --- !u!1 &1111256232
@@ -784,6 +784,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1111256234}
   - 212: {fileID: 1111256233}
+  - 114: {fileID: 1111256235}
   m_Layer: 0
   m_Name: LevelBackground
   m_TagString: Untagged
@@ -827,6 +828,18 @@ Transform:
   m_Children:
   - {fileID: 563897392}
   m_Father: {fileID: 0}
+--- !u!114 &1111256235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400008, guid: d6057dc6366be744d8ea3ebb17d93027,
+    type: 2}
+  m_PrefabInternal: {fileID: 54411320}
+  m_GameObject: {fileID: 1111256232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ee027c02d3919c4f99cdc85761b9232, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1306111166
 Prefab:
   m_ObjectHideFlags: 0
@@ -909,7 +922,7 @@ Prefab:
     - target: {fileID: 21200000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: c4b48847742e21146889c951653c07be,
+      objectReference: {fileID: 21300000, guid: e4eb94fd43650f14b9ed91b99d711ef0,
         type: 3}
     - target: {fileID: 11400000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
       propertyPath: levelToLoad
@@ -1045,7 +1058,7 @@ Transform:
   m_GameObject: {fileID: 1707141792}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.86125374, y: -4.73444605, z: -2}
-  m_LocalScale: {x: 1.02231395, y: 1.02231312, z: 1}
+  m_LocalScale: {x: 1.42403424, y: 1.42402983, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
 --- !u!1 &1965105455

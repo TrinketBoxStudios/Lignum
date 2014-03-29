@@ -26,8 +26,6 @@ public class DialogueManager : MonoBehaviour {
 #region CachedComponents
 	private AudioSource _aud;
 
-	private SpriteRenderer _sprRender;
-
 	private TextMesh _textMesh;
 #endregion
 
@@ -37,8 +35,6 @@ public class DialogueManager : MonoBehaviour {
 	private Color savedSpriteColor, savedTextColor;
 
     private string _currentAppendingText;
-
-    private float _lineOffset;
 
 	private Dictionary<string, TextBoxCustomizer> _textBoxMap;
 
@@ -54,8 +50,6 @@ public class DialogueManager : MonoBehaviour {
 		//_aud = GetComponent<AudioSource>();
 
 		_textMesh = GetComponentsInChildren<TextMesh>()[0];
-
-		_sprRender = GetComponent<SpriteRenderer>();
 
 		//Grab all text boxes we have as children
 		TextBoxCustomizer[] textBoxes = GetComponentsInChildren<TextBoxCustomizer>();
@@ -131,9 +125,6 @@ public class DialogueManager : MonoBehaviour {
 
 	private void SetTextBoxText(string text)
 	{
-        //clear out the offset number
-        _lineOffset = 0.0f;
-
         //unescape the string to allow newlines
         _currentAppendingText = System.Text.RegularExpressions.Regex.Unescape(text);
 

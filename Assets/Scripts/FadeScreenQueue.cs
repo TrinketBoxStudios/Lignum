@@ -7,7 +7,9 @@ public class FadeScreenQueue : MonoBehaviour {
 
 	public SpriteRenderer[] screenList;
 
-	private int _currentIndex = 0;
+	public float fadeInTime = 1.0f;
+	public float sustainTime = 1.5f;
+	public float fadeOutTime = 1.0f;
 
 	// Use this for initialization
 	void Start () 
@@ -30,19 +32,21 @@ public class FadeScreenQueue : MonoBehaviour {
 
 		for(int i = 0; i < screenList.Length; ++i)
 		{
-			object[] objParam = new object[1];
+			object[] objParam = new object[2];
 			objParam[0] = screenList[i].gameObject;
 
 			Color tempColor = screenList[i].color;
 			tempColor.a = 1.0f;
-			fadeSeq.Append(HOTween.To(screenList[i], 1.0f, new TweenParms().Prop("color", tempColor).OnUpdate(RevealChildren, objParam)));
+			fadeSeq.Append(HOTween.To(screenList[i], fadeInTime, new TweenParms().Prop("color", tempColor).OnUpdate(RevealChildren, objParam)));
 
 			//Second tween to the same value to allow the screen to stall
-			fadeSeq.Append(HOTween.To(screenList[i], 3.0f, new TweenParms().Prop("color", tempColor)));
+			fadeSeq.Append(HOTween.To(screenList[i], sustainTime, new TweenParms().Prop("color", tempColor)));
 
 			tempColor.a = 0.0f;
-			fadeSeq.Append(HOTween.To(screenList[i], 1.0f, new TweenParms().Prop("color", tempColor).OnUpdate(FadeChildren, objParam)));
+			fadeSeq.Append(HOTween.To(screenList[i], fadeOutTime, new TweenParms().Prop("color", tempColor).OnUpdate(FadeChildren, objParam)));
 		}
+
+		fadeSeq.Append(HOTween.To(this, 0.0f, new TweenParms().Prop("fadeInTime", 1.0f).OnComplete(Finished)));
 
 		fadeSeq.Play();
 	}
@@ -76,6 +80,11 @@ public class FadeScreenQueue : MonoBehaviour {
 			spColor.a = alpha;
 			spRender.color = spColor;
 		}
+	}
+
+	void Finished()
+	{
+		Application.LoadLevel("MainMenu");
 	}
 	
 }

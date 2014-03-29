@@ -9,6 +9,8 @@ public class GameStateManager : MonoBehaviour
 
 	private static GameStateManager _instance;
 
+	private SimpleMusicPlayer _musicPlayer;
+
 	// Use this for initialization
 	void Start () 
 	{
@@ -25,6 +27,8 @@ public class GameStateManager : MonoBehaviour
 
 			_instance = this;
 		}
+
+		_musicPlayer = GetComponent<SimpleMusicPlayer>();
 	}
 
 	public static GameStateManager GetInstance()
@@ -35,16 +39,30 @@ public class GameStateManager : MonoBehaviour
 	public void AdvanceAge()
 	{
 		if(currentAge == Age.CHILD)
+		{
 			currentAge = Age.ADULT;
+			PlaySound(SimpleMusicPlayer.ADULT_TRACK_NAME);
+		}
 		else if(currentAge == Age.ADULT)
+		{
 			currentAge = Age.ELDERLY;
+			PlaySound(SimpleMusicPlayer.ELDER_TRACK_NAME);
+		}
 		else if(currentAge == Age.ELDERLY)
+		{
 			currentAge = Age.CHILD;
+			PlaySound(SimpleMusicPlayer.CHILD_TRACK_NAME);
+		}
 	}
 
 	public Age GetAge()
 	{
 		return currentAge;
+	}
+
+	private void PlaySound( string name )
+	{
+		_musicPlayer.PlaySoundByName(name, true);
 	}
 
 }
