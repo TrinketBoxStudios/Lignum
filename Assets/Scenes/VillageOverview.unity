@@ -1899,6 +1899,18 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: -2
       objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: d6057dc6366be744d8ea3ebb17d93027, type: 2}
+      propertyPath: m_Color.r
+      value: .631472945
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: d6057dc6366be744d8ea3ebb17d93027, type: 2}
+      propertyPath: m_Color.g
+      value: .52930361
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: d6057dc6366be744d8ea3ebb17d93027, type: 2}
+      propertyPath: m_Color.b
+      value: .808823526
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d6057dc6366be744d8ea3ebb17d93027, type: 2}
   m_RootGameObject: {fileID: 1676140711}
@@ -1996,7 +2008,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_SortingLayerID: 2196553743
   m_Sprite: {fileID: 21300000, guid: 0dff7436ce655924fb229d04fa075de3, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: .631472945, g: .52930361, b: .808823526, a: 1}
 --- !u!114 &1676140714
 MonoBehaviour:
   m_ObjectHideFlags: 0
