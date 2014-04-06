@@ -260,6 +260,10 @@ Prefab:
       value: 
       objectReference: {fileID: 21300000, guid: 9f1c9bf8987bdb6428306a9ad81a0e15,
         type: 3}
+    - target: {fileID: 11400000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
+      propertyPath: levelToLoad
+      value: SprigToEgbert
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
   m_RootGameObject: {fileID: 1707141792}
@@ -1131,7 +1135,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fadeTime: 1
-  levelToLoad: SprigHouseExterior
+  levelToLoad: SprigToEgbert
 --- !u!212 &1707141795
 SpriteRenderer:
   m_ObjectHideFlags: 0

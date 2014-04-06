@@ -16,10 +16,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SprigHouseInterior.unity
   - enabled: 1
+    path: Assets/Scenes/SprigToEgbert.unity
+  - enabled: 1
     path: Assets/Scenes/EgbertHouseExterior.unity
   - enabled: 1
     path: Assets/Scenes/EgbertHouseInterior.unity
   - enabled: 1
-    path: Assets/Scenes/EndingScene.unity
-  - enabled: 1
     path: Assets/Scenes/GiovanniHouseExterior.unity
+  - enabled: 1
+    path: Assets/Scenes/GiovanniHouseInterior.unity
+  - enabled: 1
+    path: Assets/Scenes/BoardwalkToTree.unity
+  - enabled: 1
+    path: Assets/Scenes/TreeStaircase.unity
+  - enabled: 1
+    path: Assets/Scenes/EndingScene.unity

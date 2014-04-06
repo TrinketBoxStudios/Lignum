@@ -116,7 +116,7 @@ Prefab:
     - target: {fileID: 21200000, guid: d6057dc6366be744d8ea3ebb17d93027, type: 2}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: e7d90ff560414604eaa49f68ff91cc22,
+      objectReference: {fileID: 21300000, guid: ce0373a5cd1b5fa4687ed9cddc1a40e0,
         type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d6057dc6366be744d8ea3ebb17d93027, type: 2}
@@ -174,7 +174,7 @@ SpriteRenderer:
   m_SortingLayer: -3
   m_SortingOrder: 0
   m_SortingLayerID: 2196553743
-  m_Sprite: {fileID: 21300000, guid: e7d90ff560414604eaa49f68ff91cc22, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ce0373a5cd1b5fa4687ed9cddc1a40e0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &469057517
 MonoBehaviour:
@@ -576,7 +576,6 @@ GameObject:
   - 212: {fileID: 1069766102}
   - 114: {fileID: 1069766101}
   - 61: {fileID: 1069766100}
-  - 114: {fileID: 1069766104}
   m_Layer: 0
   m_Name: NavigationArrow
   m_TagString: Untagged
@@ -609,7 +608,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fadeTime: 1
-  levelToLoad: MainMenu
+  levelToLoad: GiovanniHouseExterior
 --- !u!212 &1069766102
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -632,7 +631,7 @@ SpriteRenderer:
   m_SortingLayer: -1
   m_SortingOrder: 0
   m_SortingLayerID: 4044169479
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 9f1c9bf8987bdb6428306a9ad81a0e15, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &1069766103
 Transform:
@@ -641,21 +640,10 @@ Transform:
   m_PrefabInternal: {fileID: 1241838479}
   m_GameObject: {fileID: 1069766099}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .640794754, y: .863706112, z: -2}
-  m_LocalScale: {x: 2.63446331, y: 4.33817005, z: 1}
+  m_LocalPosition: {x: 6.9915123, y: -4.48215199, z: -2}
+  m_LocalScale: {x: 1.42403424, y: 1.42402983, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
---- !u!114 &1069766104
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1069766099}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 850c30ba0f048154397cd6f3d2bdd17e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1099458404
 GameObject:
   m_ObjectHideFlags: 0
@@ -781,11 +769,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
       propertyPath: m_LocalPosition.x
-      value: .640794754
+      value: 6.9915123
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
       propertyPath: m_LocalPosition.y
-      value: .863706112
+      value: -4.48215199
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
       propertyPath: m_LocalPosition.z
@@ -807,21 +795,9 @@ Prefab:
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 21200000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 4.33817005
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 2.63446331
-      objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
       propertyPath: levelToLoad
-      value: MainMenu
+      value: GiovanniHouseExterior
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}

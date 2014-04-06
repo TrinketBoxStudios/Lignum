@@ -1626,7 +1626,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
       propertyPath: levelToLoad
-      value: EgbertHouseExterior
+      value: SprigToEgbert
       objectReference: {fileID: 0}
     - target: {fileID: 21200000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
       propertyPath: m_Sprite
@@ -1958,7 +1958,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fadeTime: 1
-  levelToLoad: EgbertHouseExterior
+  levelToLoad: SprigToEgbert
 --- !u!212 &1682335765
 SpriteRenderer:
   m_ObjectHideFlags: 0

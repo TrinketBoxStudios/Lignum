@@ -247,7 +247,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fadeTime: 1
-  levelToLoad: EndingScene
+  levelToLoad: BoardwalkToTree
 --- !u!212 &87415275
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -926,7 +926,7 @@ Prefab:
         type: 3}
     - target: {fileID: 11400000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
       propertyPath: levelToLoad
-      value: EndingScene
+      value: BoardwalkToTree
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
