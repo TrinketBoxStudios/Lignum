@@ -229,11 +229,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -8.21414566
+      value: -6.72295094
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -4.56079006
+      value: -4.34776735
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
       propertyPath: m_LocalPosition.z
@@ -249,11 +249,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: .358135849
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: -.933669508
       objectReference: {fileID: 0}
     - target: {fileID: 21200000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
       propertyPath: m_Sprite
@@ -262,11 +262,159 @@ Prefab:
         type: 3}
     - target: {fileID: 11400000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
       propertyPath: levelToLoad
-      value: SprigToEgbert
+      value: 5_SprigToEgbert
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1.20000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 1.20000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
+      propertyPath: m_Color.r
+      value: .961054802
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
+      propertyPath: m_Color.g
+      value: .95588237
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
+      propertyPath: m_Color.b
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
   m_RootGameObject: {fileID: 1707141792}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
+--- !u!1001 &269088758
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 603158327}
+    m_Modifications:
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -.324674368
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2.53633833
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -.500000238
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[3].x
+      value: 6.20363617
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[3].y
+      value: .0296154022
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[0].y
+      value: 2.97189808
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[0].x
+      value: -.758521438
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[1].x
+      value: 4.30831957
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[1].y
+      value: 3.25346565
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[2].x
+      value: 5.76469898
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[2].y
+      value: 2.35569763
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[4].x
+      value: 2.09207392
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[4].y
+      value: -3.17101502
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[5].x
+      value: .119079113
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[5].y
+      value: -2.42890382
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[6].x
+      value: -.676925302
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[6].y
+      value: -1.6246438
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[7].x
+      value: -1.52965021
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[7].y
+      value: -2.19331527
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[8].x
+      value: -2.77936625
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[8].y
+      value: -1.50245643
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[9].x
+      value: -3.15437078
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[9].y
+      value: .0389342308
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Name
+      value: EgbertHouse
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+  m_RootGameObject: {fileID: 920267700}
   m_IsPrefabParent: 0
   m_IsExploded: 1
 --- !u!1 &563897391
@@ -412,6 +560,124 @@ SpriteRenderer:
   m_SortingLayerID: 4044169479
   m_Sprite: {fileID: 21300000, guid: 91db62078078849488bbf57c0440dd65, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &603158326
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 390da7966787de044bd371943727924c, type: 2}
+  m_PrefabInternal: {fileID: 2102201903}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 603158327}
+  m_Layer: 0
+  m_Name: InterContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &603158327
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 390da7966787de044bd371943727924c, type: 2}
+  m_PrefabInternal: {fileID: 2102201903}
+  m_GameObject: {fileID: 603158326}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.7738502, y: -.829949081, z: -.0239257812}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2104402842}
+  - {fileID: 920267701}
+  - {fileID: 1832154155}
+  - {fileID: 859118889}
+  m_Father: {fileID: 0}
+--- !u!1001 &659525469
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 603158327}
+    m_Modifications:
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -5.10016632
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: .888627231
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -.500000238
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[3].x
+      value: -.520340919
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[3].y
+      value: -.799016714
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[0].x
+      value: .116388321
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[0].y
+      value: 1.12662935
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[1].x
+      value: .997543335
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[1].y
+      value: .489459455
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[2].x
+      value: .708312035
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[2].y
+      value: -.307754219
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[4].x
+      value: -.468445778
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[4].y
+      value: .379636824
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Name
+      value: EgbertBirdHouse
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+  m_RootGameObject: {fileID: 2104402841}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &797794990
 GameObject:
   m_ObjectHideFlags: 0
@@ -568,6 +834,182 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!1001 &844993490
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 603158327}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -8.04001617
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2.66445303
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+  m_RootGameObject: {fileID: 1832154152}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
+--- !u!1 &859118888
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+  m_PrefabInternal: {fileID: 1945601305}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 859118889}
+  - 60: {fileID: 859118891}
+  - 114: {fileID: 859118890}
+  m_Layer: 0
+  m_Name: PlankWalkway
+  m_TagString: Untagged
+  m_Icon: {fileID: -1500306622, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &859118889
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+  m_PrefabInternal: {fileID: 1945601305}
+  m_GameObject: {fileID: 859118888}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.46355438, y: -3.08093977, z: -.500000238}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 603158327}
+--- !u!114 &859118890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9,
+    type: 2}
+  m_PrefabInternal: {fileID: 1945601305}
+  m_GameObject: {fileID: 859118888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23c4da1c61ca5d84db538b47ed0610ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  childInteractionDialogue:
+  - 'I bet a tree this big weighs like a million billion pounds. '
+  adultInteractionDialogue:
+  - 'The trees here are so massive and sturdy. They don''t grow nearly this large
+    at home. '
+  elderlyInteractionDialogue:
+  - 'Only the best trees are picked for these wonderful houses, glad Sprig picked
+    a good one for himself. '
+--- !u!60 &859118891
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9,
+    type: 2}
+  m_PrefabInternal: {fileID: 1945601305}
+  m_GameObject: {fileID: 859118888}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Poly:
+    m_Paths:
+    - - {x: .347566605, y: 1.63660169}
+      - {x: 4.59116364, y: 2.01679015}
+      - {x: 6.64574242, y: .875686407}
+      - {x: -.282958031, y: -1.3057189}
+      - {x: -2.55716896, y: -1.10646248}
+      - {x: -2.44244194, y: -.23283267}
+--- !u!1 &920267700
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+  m_PrefabInternal: {fileID: 269088758}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 920267701}
+  - 60: {fileID: 920267703}
+  - 114: {fileID: 920267702}
+  m_Layer: 0
+  m_Name: EgbertHouse
+  m_TagString: Untagged
+  m_Icon: {fileID: -1500306622, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &920267701
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+  m_PrefabInternal: {fileID: 269088758}
+  m_GameObject: {fileID: 920267700}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.324674368, y: 2.53633833, z: -.500000238}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 603158327}
+--- !u!114 &920267702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9,
+    type: 2}
+  m_PrefabInternal: {fileID: 269088758}
+  m_GameObject: {fileID: 920267700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23c4da1c61ca5d84db538b47ed0610ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  childInteractionDialogue:
+  - 'I bet a tree this big weighs like a million billion pounds. '
+  adultInteractionDialogue:
+  - 'The trees here are so massive and sturdy. They don''t grow nearly this large
+    at home. '
+  elderlyInteractionDialogue:
+  - 'Only the best trees are picked for these wonderful houses, glad Sprig picked
+    a good one for himself. '
+--- !u!60 &920267703
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9,
+    type: 2}
+  m_PrefabInternal: {fileID: 269088758}
+  m_GameObject: {fileID: 920267700}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Poly:
+    m_Paths:
+    - - {x: -.758521438, y: 2.97189808}
+      - {x: 4.30831957, y: 3.25346565}
+      - {x: 5.76469898, y: 2.35569763}
+      - {x: 6.20363617, y: .0296154022}
+      - {x: 2.09207392, y: -3.17101502}
+      - {x: .119079113, y: -2.42890382}
+      - {x: -.676925302, y: -1.6246438}
+      - {x: -1.52965021, y: -2.19331527}
+      - {x: -2.77936625, y: -1.50245643}
+      - {x: -3.15437078, y: .0389342308}
 --- !u!1001 &956327711
 Prefab:
   m_ObjectHideFlags: 0
@@ -605,13 +1047,33 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
       propertyPath: levelToLoad
-      value: GiovanniHouseExterior
+      value: 8_GiovanniHouseExterior
       objectReference: {fileID: 0}
     - target: {fileID: 21200000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: e4eb94fd43650f14b9ed91b99d711ef0,
         type: 3}
+    - target: {fileID: 400000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1.20000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 1.20000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
+      propertyPath: m_Color.g
+      value: .970689654
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
+      propertyPath: m_Color.b
+      value: .875
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
   m_RootGameObject: {fileID: 1174564265}
@@ -660,7 +1122,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fadeTime: 1
-  levelToLoad: EgbertHouseInterior
+  levelToLoad: 7_EgbertHouseInterior
 --- !u!212 &1107334157
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -684,7 +1146,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_SortingLayerID: 4044169479
   m_Sprite: {fileID: 21300000, guid: c4b48847742e21146889c951653c07be, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: .997565925, g: 1, b: .95588237, a: 1}
 --- !u!4 &1107334158
 Transform:
   m_ObjectHideFlags: 0
@@ -692,8 +1154,8 @@ Transform:
   m_PrefabInternal: {fileID: 1440888424}
   m_GameObject: {fileID: 1107334154}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.39237475, y: -1.05390668, z: -2}
-  m_LocalScale: {x: 1.42403424, y: 1.42402983, z: 1}
+  m_LocalPosition: {x: 2.00778842, y: -1.10124612, z: -2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
 --- !u!1 &1111256232
@@ -804,7 +1266,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fadeTime: 1
-  levelToLoad: GiovanniHouseExterior
+  levelToLoad: 8_GiovanniHouseExterior
 --- !u!212 &1174564268
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -828,7 +1290,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_SortingLayerID: 4044169479
   m_Sprite: {fileID: 21300000, guid: e4eb94fd43650f14b9ed91b99d711ef0, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: .970689654, b: .875, a: 1}
 --- !u!4 &1174564269
 Transform:
   m_ObjectHideFlags: 0
@@ -837,7 +1299,7 @@ Transform:
   m_GameObject: {fileID: 1174564265}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 8.56490898, y: -.0580507517, z: -2}
-  m_LocalScale: {x: 1.42403424, y: 1.42402983, z: 1}
+  m_LocalScale: {x: 1.20000005, y: 1.20000005, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
 --- !u!1 &1276653177
@@ -994,6 +1456,10 @@ Prefab:
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: d6057dc6366be744d8ea3ebb17d93027, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d6057dc6366be744d8ea3ebb17d93027, type: 2}
   m_RootGameObject: {fileID: 1111256232}
@@ -1008,11 +1474,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 1.39237475
+      value: 2.00778842
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -1.05390668
+      value: -1.10124612
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1041,7 +1507,27 @@ Prefab:
         type: 3}
     - target: {fileID: 11400000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
       propertyPath: levelToLoad
-      value: EgbertHouseInterior
+      value: 7_EgbertHouseInterior
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
+      propertyPath: m_Color.r
+      value: .997565925
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
+      propertyPath: m_Color.b
+      value: .95588237
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
@@ -1135,7 +1621,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fadeTime: 1
-  levelToLoad: SprigToEgbert
+  levelToLoad: 5_SprigToEgbert
 --- !u!212 &1707141795
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1159,16 +1645,16 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_SortingLayerID: 4044169479
   m_Sprite: {fileID: 21300000, guid: 9f1c9bf8987bdb6428306a9ad81a0e15, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: .961054802, g: .95588237, b: 1, a: 1}
 --- !u!4 &1707141796
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
   m_PrefabInternal: {fileID: 156008987}
   m_GameObject: {fileID: 1707141792}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.21414566, y: -4.56079006, z: -2}
-  m_LocalScale: {x: 1.42403424, y: 1.42402983, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: .358135849, w: -.933669508}
+  m_LocalPosition: {x: -6.72295094, y: -4.34776735, z: -2}
+  m_LocalScale: {x: 1.20000005, y: 1.20000005, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
 --- !u!1 &1742280842
@@ -1261,6 +1747,70 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_Size: {x: 7.03999996, y: 2.55999994}
   m_Center: {x: 0, y: 0}
+--- !u!1 &1832154152
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+  m_PrefabInternal: {fileID: 844993490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1832154155}
+  - 60: {fileID: 1832154154}
+  - 114: {fileID: 1832154153}
+  m_Layer: 0
+  m_Name: InteractableObject
+  m_TagString: Untagged
+  m_Icon: {fileID: -1500306622, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1832154153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9,
+    type: 2}
+  m_PrefabInternal: {fileID: 844993490}
+  m_GameObject: {fileID: 1832154152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23c4da1c61ca5d84db538b47ed0610ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  childInteractionDialogue:
+  - 'I bet a tree this big weighs like a million billion pounds. '
+  adultInteractionDialogue:
+  - 'The trees here are so massive and sturdy. They don''t grow nearly this large
+    at home. '
+  elderlyInteractionDialogue:
+  - 'Only the best trees are picked for these wonderful houses, glad Sprig picked
+    a good one for himself. '
+--- !u!60 &1832154154
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9,
+    type: 2}
+  m_PrefabInternal: {fileID: 844993490}
+  m_GameObject: {fileID: 1832154152}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Poly:
+    m_Paths:
+    - - {x: .693443298, y: 1.02171016}
+      - {x: .773886681, y: -.80611968}
+      - {x: -.520340919, y: -.799016714}
+      - {x: -.520905495, y: 1.03538084}
+--- !u!4 &1832154155
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+  m_PrefabInternal: {fileID: 844993490}
+  m_GameObject: {fileID: 1832154152}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.04001617, y: 2.66445303, z: -.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 603158327}
 --- !u!1 &1849544077
 GameObject:
   m_ObjectHideFlags: 0
@@ -1338,6 +1888,102 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18b08053c6400f248b60c28a0ae025da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &1945601305
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 603158327}
+    m_Modifications:
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -7.46355438
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -3.08093977
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -.500000238
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[3].x
+      value: -.282958031
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[3].y
+      value: -1.3057189
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[0].x
+      value: .347566605
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[0].y
+      value: 1.63660169
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[1].x
+      value: 4.59116364
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[1].y
+      value: 2.01679015
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[2].x
+      value: 6.64574242
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[2].y
+      value: .875686407
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[4].x
+      value: -2.55716896
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[4].y
+      value: -1.10646248
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[5].x
+      value: -2.44244194
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[5].y
+      value: -.23283267
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: m_Name
+      value: PlankWalkway
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+  m_RootGameObject: {fileID: 859118888}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &1965105455
 GameObject:
   m_ObjectHideFlags: 0
@@ -1443,3 +2089,108 @@ Prefab:
   m_RootGameObject: {fileID: 821738644}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1001 &2102201903
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 390da7966787de044bd371943727924c, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 2.7738502
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 390da7966787de044bd371943727924c, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -.829949081
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 390da7966787de044bd371943727924c, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -.0239257812
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 390da7966787de044bd371943727924c, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 390da7966787de044bd371943727924c, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 390da7966787de044bd371943727924c, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 390da7966787de044bd371943727924c, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 390da7966787de044bd371943727924c, type: 2}
+  m_RootGameObject: {fileID: 603158326}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
+--- !u!1 &2104402841
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+  m_PrefabInternal: {fileID: 659525469}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2104402842}
+  - 60: {fileID: 2104402844}
+  - 114: {fileID: 2104402843}
+  m_Layer: 0
+  m_Name: EgbertBirdHouse
+  m_TagString: Untagged
+  m_Icon: {fileID: -1500306622, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2104402842
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+  m_PrefabInternal: {fileID: 659525469}
+  m_GameObject: {fileID: 2104402841}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.10016632, y: .888627231, z: -.500000238}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 603158327}
+--- !u!114 &2104402843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9,
+    type: 2}
+  m_PrefabInternal: {fileID: 659525469}
+  m_GameObject: {fileID: 2104402841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23c4da1c61ca5d84db538b47ed0610ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  childInteractionDialogue:
+  - 'I bet a tree this big weighs like a million billion pounds. '
+  adultInteractionDialogue:
+  - 'The trees here are so massive and sturdy. They don''t grow nearly this large
+    at home. '
+  elderlyInteractionDialogue:
+  - 'Only the best trees are picked for these wonderful houses, glad Sprig picked
+    a good one for himself. '
+--- !u!60 &2104402844
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9,
+    type: 2}
+  m_PrefabInternal: {fileID: 659525469}
+  m_GameObject: {fileID: 2104402841}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Poly:
+    m_Paths:
+    - - {x: .116388321, y: 1.12662935}
+      - {x: .997543335, y: .489459455}
+      - {x: .708312035, y: -.307754219}
+      - {x: -.520340919, y: -.799016714}
+      - {x: -.468445778, y: .379636824}

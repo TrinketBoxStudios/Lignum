@@ -46,7 +46,7 @@ public class SingleToggleAnimaion : MonoBehaviour
 			_sprRender.sprite = frameOne;
 			_currentFrame = 0;
 
-			_dlgBox.HideMe();
+			//_dlgBox.HideMe();
 		}
 	}
 

@@ -40,6 +40,14 @@ public class DialogueManager : MonoBehaviour {
 
 	private string _currentTBIdentifier = "I";
 
+	private bool _currentlyDisplayingText = false;
+
+	private bool _appending = false;
+
+	private bool _earlyAppendEnd = false;
+
+	private bool _hideMeNextFrame = false;
+
 #endregion
 
 
@@ -78,17 +86,47 @@ public class DialogueManager : MonoBehaviour {
 
 		HideMe();
 	}
-	
-	// Update is called once per frame
-	void Update () {
+
+	void FixedUpdate()
+	{
+		if(Input.GetMouseButtonDown(0))
+		{
+			if(_appending)
+			{
+				_earlyAppendEnd = true;
+			}
+			else
+			{
+				_hideMeNextFrame = true;
+			}
+
+			if(_hideMeNextFrame)
+			{
+				AdvanceDialogueOnClick();
+			}
+		}
 	}
 
 	void OnMouseDown()
 	{
-		//_aud.Play();
 
+		AdvanceDialogueOnClick();
+	}
+
+	void AdvanceDialogueOnClick()
+	{
+		_hideMeNextFrame = false;
+		
+		if(_appending)
+		{
+			_earlyAppendEnd = true;
+			return;
+		}
+		
 		if(index < DialogueStrings.Length)
 		{
+			_earlyAppendEnd = false;
+
 			string text = DialogueStrings[index];
 			//Check for blank strings and return early
 			if(text.Length == 0)
@@ -105,22 +143,43 @@ public class DialogueManager : MonoBehaviour {
 		else
 		{
 			HideMe();
+			
+			_currentlyDisplayingText = false;
 		}
-
 	}
     
     private void StartAppendingText()
     {
         if (_currentAppendingText.Length == 0)
+		{
+			_appending = false;
             return;
+		}
 
-        //Get the top character of the string
-        _textMesh.text += _currentAppendingText.Substring(0, 1);
+		_appending = true;
 
-        //pop the first character off
-        _currentAppendingText = _currentAppendingText.Remove(0, 1);
+		if(_earlyAppendEnd == false)
+		{
+	        //Get the top character of the string
+	        _textMesh.text += _currentAppendingText.Substring(0, 1);
 
-        Invoke("StartAppendingText", readTime);
+	        //pop the first character off
+	        _currentAppendingText = _currentAppendingText.Remove(0, 1);
+
+	        Invoke("StartAppendingText", readTime);
+		}
+		else
+		{
+			_textMesh.text += _currentAppendingText;
+
+			_currentAppendingText = "";
+
+			_earlyAppendEnd = false;
+
+			_appending = false;
+
+			return;
+		}
     }
 
 	private void SetTextBoxText(string text)
@@ -154,7 +213,10 @@ public class DialogueManager : MonoBehaviour {
 		{
 			HideAllTextBoxes();
 
-			ShowSpecifiedText("I");
+			//manually set this to interactable tag because the split didn't work
+			_currentTBIdentifier = interactionTag;
+
+			ShowSpecifiedText(interactionTag);
 		}
 
 		//Clear the textmesh since we're going to be appending to it
@@ -181,6 +243,16 @@ public class DialogueManager : MonoBehaviour {
 			return;
 		}
 
+		//we're in the middle of another text box, don't interupt
+		if(_currentlyDisplayingText == true)
+		{
+			return;
+		}
+		else
+		{
+			_currentlyDisplayingText = true;
+		}
+
 		//A bit of work for the garbage collector, possibly refactor later
 		DialogueStrings = dialogueStrings;
 
@@ -202,6 +274,7 @@ public class DialogueManager : MonoBehaviour {
 	public void HideMe()
 	{
 		HideAll();
+
 		//essential to allow clicking behind object when hidden
 		collider2D.enabled = false;
 	}
