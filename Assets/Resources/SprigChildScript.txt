@@ -1,3 +1,13 @@
-R:This is a line one :P
-P:This is a line two for kids
-P:This is a line three for kids
+P:Hey did you see a bird just now?!
+R:A bird? There are lots of birds in the forest.
+P:No, I mean a singing bird! I have to find it again to hear that song it was singing.
+R:Hmmm, well... that's nice, but I'm training right now.
+P:Training? Really? What for?
+R:I'm the Junior Village Caretaker. I'm learning how to take care of the village.
+P:What is that, like a boy scout or something?
+R:What, no! It's my assigned purpose. It's a big deal. What about you?
+P:Uhh.. uhh.. I'm going to be a dragon!
+R:We're not playing pretend!
+P:Dragons aren't pretend!
+R:Whatever, weird dragon-kid. If you're still looking for that bird, you should go talk to Egbert.
+R:He knows all sorts of stuff about birds. Though if you ask me, you probably have more important things to worry about.

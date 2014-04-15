@@ -84,7 +84,7 @@ public class FadeScreenQueue : MonoBehaviour {
 
 	void Finished()
 	{
-		Application.LoadLevel("MainMenu");
+		FindObjectOfType<LevelTransitionManager>().ChangeLevel("1_MainMenu");
 	}
 	
 }

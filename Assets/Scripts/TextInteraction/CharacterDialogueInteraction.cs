@@ -36,7 +36,7 @@ public class CharacterDialogueInteraction : MonoBehaviour
 		} 
 		else 
 		{
-			Debug.LogError("File could not be opened");
+			Debug.LogError(fileName + " could not be opened");
 		}
 
 		return null;

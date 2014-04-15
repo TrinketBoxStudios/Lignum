@@ -110,7 +110,7 @@ public class DialogueManager : MonoBehaviour {
 	void OnMouseDown()
 	{
 
-		AdvanceDialogueOnClick();
+		//AdvanceDialogueOnClick();
 	}
 
 	void AdvanceDialogueOnClick()

@@ -6,20 +6,17 @@ public class NavigationArrow : MonoBehaviour {
 	public float fadeTime = 1.0f;
 	public string levelToLoad = "none";
 
+	private LevelTransitionManager _lvlTransitoner;
+
 	// Use this for initialization
 	void Start () 
 	{
-
+		_lvlTransitoner = FindObjectOfType<LevelTransitionManager>();
 	}
-	
-	// Update is called once per frame
-	void Update () 
-	{
 
-	}
 
 	void OnMouseDown()
 	{
-		Application.LoadLevel(levelToLoad);
+		_lvlTransitoner.ChangeLevel(levelToLoad);
 	}
 }

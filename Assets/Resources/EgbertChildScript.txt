@@ -1,3 +1,18 @@
-R:This is a line one 
-P:This is a line two for kids
-P:This is a line three for kids
+P:Oh a bird! Wait, that's not the one I'm looking for...
+R:Whoa there, what's wrong with Ferd? (He looks alright to me...)
+P:Nothing, I'm just looking for a different bird, sir.
+R:(Hey c'mon, don't call me "sir") Well, I know a thing or two about birds. What can I help you with?
+P:Actually... what do you know about dragons?
+R:Oh you wanna hear about dragons, do you? Beautiful creatures! Only vanquished by the bravest of knights!
+P:Ooooo...
+R:Ah yes, there's nothing better than settling down to a good fairy tale.
+P:Fairy tale?!
+R:Well yea, there are some great stories about dragons! I have some books if you want to borrow some-
+P:But dragons aren't stories! They're real, and I'm gonna be one when I grow up!
+R:Ahh, you remind me of me when I was a kid. I wanted to be an inventor back then.
+P:Really? That's so cool! What have you invented?
+R:Actually, I became a ranger. It benefitted the village more.
+P:Oh.
+R:Weren't you looking for a bird when you came in here?
+P:Oh yea. It's small and white, and it sings a pretty song.
+R:Oh I know that bird! It usually hangs around Ol' Giovanni's place. You should go see him. Best of luck with the dragons, hope you find what you are looking for.

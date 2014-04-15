@@ -1,0 +1,2 @@
+P:Gee, this text sure could be implemented
+R:Quiet, jeeves.
