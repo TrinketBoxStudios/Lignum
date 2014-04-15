@@ -205,6 +205,18 @@ Prefab:
       propertyPath: m_Name
       value: Flowerpot
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: childInteractionDialogue.Array.data[0]
+      value: That's a pretty flower pot I guess.
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: adultInteractionDialogue.Array.data[0]
+      value: I wonder what species those are?
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: elderlyInteractionDialogue.Array.data[0]
+      value: They smell much prettier than they look, which is saying quite a bit.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
   m_RootGameObject: {fileID: 431555533}
@@ -676,6 +688,18 @@ Prefab:
       propertyPath: m_Name
       value: WallPapers
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: childInteractionDialogue.Array.data[0]
+      value: One hundred million old papers. Exactly.
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: adultInteractionDialogue.Array.data[0]
+      value: I'd hope he'd have some sort of better filing system..
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: elderlyInteractionDialogue.Array.data[0]
+      value: I'd love to have just one of those to take home and frame.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
   m_RootGameObject: {fileID: 1535958342}
@@ -722,13 +746,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   childInteractionDialogue:
-  - 'I bet a tree this big weighs like a million billion pounds. '
+  - That's a pretty flower pot I guess.
   adultInteractionDialogue:
-  - 'The trees here are so massive and sturdy. They don''t grow nearly this large
-    at home. '
+  - I wonder what species those are?
   elderlyInteractionDialogue:
-  - 'Only the best trees are picked for these wonderful houses, glad Sprig picked
-    a good one for himself. '
+  - They smell much prettier than they look, which is saying quite a bit.
 --- !u!60 &431555536
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -853,6 +875,18 @@ Prefab:
     - target: {fileID: 100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
       propertyPath: m_Name
       value: Hammock
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: childInteractionDialogue.Array.data[0]
+      value: He gets to sleep in a hammock?!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: adultInteractionDialogue.Array.data[0]
+      value: Not a traditional bed, but I'm sure it's quite comfy.
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: elderlyInteractionDialogue.Array.data[0]
+      value: Another perfect spot for a quick nap.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
@@ -1058,6 +1092,18 @@ Prefab:
     - target: {fileID: 100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
       propertyPath: m_Name
       value: DraftingTable
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: childInteractionDialogue.Array.data[0]
+      value: So many drawing and papers. I want one of those at school.
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: adultInteractionDialogue.Array.data[0]
+      value: Now I can definitely respect a well made desk. Looks well used.
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: elderlyInteractionDialogue.Array.data[0]
+      value: So many inventions and ideas flowed out of that desk.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
@@ -1457,13 +1503,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   childInteractionDialogue:
-  - 'I bet a tree this big weighs like a million billion pounds. '
+  - A birdcage? But the bird looks like he lives on the robot's head.
   adultInteractionDialogue:
-  - 'The trees here are so massive and sturdy. They don''t grow nearly this large
-    at home. '
+  - It seems pretty uneccesary, but I understand having one around just in case.
   elderlyInteractionDialogue:
-  - 'Only the best trees are picked for these wonderful houses, glad Sprig picked
-    a good one for himself. '
+  - I never did see Ferd get in that cage, still a lovely cage though.
 --- !u!60 &1129425744
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1590,13 +1634,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   childInteractionDialogue:
-  - 'I bet a tree this big weighs like a million billion pounds. '
+  - So many drawing and papers. I want one of those at school.
   adultInteractionDialogue:
-  - 'The trees here are so massive and sturdy. They don''t grow nearly this large
-    at home. '
+  - Now I can definitely respect a well made desk. Looks well used.
   elderlyInteractionDialogue:
-  - 'Only the best trees are picked for these wonderful houses, glad Sprig picked
-    a good one for himself. '
+  - So many inventions and ideas flowed out of that desk.
 --- !u!60 &1216549806
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1655,13 +1697,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   childInteractionDialogue:
-  - 'I bet a tree this big weighs like a million billion pounds. '
+  - He gets to sleep in a hammock?!
   adultInteractionDialogue:
-  - 'The trees here are so massive and sturdy. They don''t grow nearly this large
-    at home. '
+  - Not a traditional bed, but I'm sure it's quite comfy.
   elderlyInteractionDialogue:
-  - 'Only the best trees are picked for these wonderful houses, glad Sprig picked
-    a good one for himself. '
+  - Another perfect spot for a quick nap.
 --- !u!60 &1266469058
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1711,13 +1751,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   childInteractionDialogue:
-  - 'I bet a tree this big weighs like a million billion pounds. '
+  - A bottle of honey by all the books? It looks yummy.
   adultInteractionDialogue:
-  - 'The trees here are so massive and sturdy. They don''t grow nearly this large
-    at home. '
+  - A bit of organization in the chaos is comforting.
   elderlyInteractionDialogue:
-  - 'Only the best trees are picked for these wonderful houses, glad Sprig picked
-    a good one for himself. '
+  - Looks like Egbert has been slacking on watering that little sprout, I'll poke
+    him to get on it one of these days.
 --- !u!60 &1286963011
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1830,6 +1869,19 @@ Prefab:
       propertyPath: m_Name
       value: MiscShelfItems
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: childInteractionDialogue.Array.data[0]
+      value: A bottle of honey by all the books? It looks yummy.
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: adultInteractionDialogue.Array.data[0]
+      value: A bit of organization in the chaos is comforting.
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: elderlyInteractionDialogue.Array.data[0]
+      value: Looks like Egbert has been slacking on watering that little sprout, I'll
+        poke him to get on it one of these days.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
   m_RootGameObject: {fileID: 1286963009}
@@ -1941,13 +1993,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   childInteractionDialogue:
-  - 'I bet a tree this big weighs like a million billion pounds. '
+  - One hundred million old papers. Exactly.
   adultInteractionDialogue:
-  - 'The trees here are so massive and sturdy. They don''t grow nearly this large
-    at home. '
+  - I'd hope he'd have some sort of better filing system..
   elderlyInteractionDialogue:
-  - 'Only the best trees are picked for these wonderful houses, glad Sprig picked
-    a good one for himself. '
+  - I'd love to have just one of those to take home and frame.
 --- !u!60 &1535958345
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2104,6 +2154,19 @@ Prefab:
     - target: {fileID: 100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
       propertyPath: m_Name
       value: BirdHouse
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: childInteractionDialogue.Array.data[0]
+      value: A birdcage? But the bird looks like he lives on the robot's head.
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: adultInteractionDialogue.Array.data[0]
+      value: It seems pretty uneccesary, but I understand having one around just in
+        case.
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: elderlyInteractionDialogue.Array.data[0]
+      value: I never did see Ferd get in that cage, still a lovely cage though.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}

@@ -83,6 +83,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 6554025}
   - 114: {fileID: 6554024}
+  - 82: {fileID: 6554027}
+  - 114: {fileID: 6554026}
   m_Layer: 0
   m_Name: GAMESTATE_PLACEHOLDER
   m_TagString: Untagged
@@ -114,6 +116,82 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &6554026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: dc4b4e9a9d2bb334f9c4b74c8d4b1330,
+    type: 2}
+  m_PrefabInternal: {fileID: 1306111166}
+  m_GameObject: {fileID: 6554023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01ef66e973dcd1a488da65a47145de22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: 1c849873048fc8f45ad6a73c88b0cbf9, type: 3}
+  - {fileID: 8300000, guid: 86a474a767220e740b2b5cb6e831da41, type: 3}
+  - {fileID: 8300000, guid: 6487928afaf0fe344b511363d4f18e21, type: 3}
+  - {fileID: 8300000, guid: 99f3d50009e2afa4788c4d4f3bdc5ac1, type: 3}
+--- !u!82 &6554027
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: dc4b4e9a9d2bb334f9c4b74c8d4b1330,
+    type: 2}
+  m_PrefabInternal: {fileID: 1306111166}
+  m_GameObject: {fileID: 6554023}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!1 &20718485
 GameObject:
   m_ObjectHideFlags: 0
@@ -412,6 +490,18 @@ Prefab:
       propertyPath: m_Name
       value: EgbertHouse
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: childInteractionDialogue.Array.data[0]
+      value: Somone lives in a giant birdhouse? Awesome!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: adultInteractionDialogue.Array.data[0]
+      value: These house designs keep surprising me. What an interesting abode.
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: elderlyInteractionDialogue.Array.data[0]
+      value: Egbert's house! I can' wait to see him.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
   m_RootGameObject: {fileID: 920267700}
@@ -587,7 +677,6 @@ Transform:
   m_Children:
   - {fileID: 2104402842}
   - {fileID: 920267701}
-  - {fileID: 1832154155}
   - {fileID: 859118889}
   m_Father: {fileID: 0}
 --- !u!1001 &659525469
@@ -672,6 +761,18 @@ Prefab:
     - target: {fileID: 100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
       propertyPath: m_Name
       value: EgbertBirdHouse
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: childInteractionDialogue.Array.data[0]
+      value: Ooh! Birdhouse! It's like the one I have at home.
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: adultInteractionDialogue.Array.data[0]
+      value: This fellow has a pretty respectable birdhouse. Artisan crafted for sure.
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: elderlyInteractionDialogue.Array.data[0]
+      value: Nobody builds a birdhouse like Egbert.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
@@ -834,46 +935,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
---- !u!1001 &844993490
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 603158327}
-    m_Modifications:
-    - target: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -8.04001617
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 2.66445303
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
-  m_RootGameObject: {fileID: 1832154152}
-  m_IsPrefabParent: 0
-  m_IsExploded: 1
 --- !u!1 &859118888
 GameObject:
   m_ObjectHideFlags: 0
@@ -915,13 +976,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   childInteractionDialogue:
-  - 'I bet a tree this big weighs like a million billion pounds. '
+  - My mom would never let me walk across something like this. Too bad she isn't here!
   adultInteractionDialogue:
-  - 'The trees here are so massive and sturdy. They don''t grow nearly this large
-    at home. '
+  - 'I''ll be sure to watch my step here. '
   elderlyInteractionDialogue:
-  - 'Only the best trees are picked for these wonderful houses, glad Sprig picked
-    a good one for himself. '
+  - I've crossed these little planks many a time and never tripped. Not planning on
+    it now!
 --- !u!60 &859118891
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -981,13 +1041,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   childInteractionDialogue:
-  - 'I bet a tree this big weighs like a million billion pounds. '
+  - Somone lives in a giant birdhouse? Awesome!
   adultInteractionDialogue:
-  - 'The trees here are so massive and sturdy. They don''t grow nearly this large
-    at home. '
+  - These house designs keep surprising me. What an interesting abode.
   elderlyInteractionDialogue:
-  - 'Only the best trees are picked for these wonderful houses, glad Sprig picked
-    a good one for himself. '
+  - Egbert's house! I can' wait to see him.
 --- !u!60 &920267703
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1605,70 +1663,6 @@ Transform:
   m_LocalScale: {x: 1.20000005, y: 1.20000005, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
---- !u!1 &1832154152
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
-  m_PrefabInternal: {fileID: 844993490}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1832154155}
-  - 60: {fileID: 1832154154}
-  - 114: {fileID: 1832154153}
-  m_Layer: 0
-  m_Name: InteractableObject
-  m_TagString: Untagged
-  m_Icon: {fileID: -1500306622, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1832154153
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9,
-    type: 2}
-  m_PrefabInternal: {fileID: 844993490}
-  m_GameObject: {fileID: 1832154152}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23c4da1c61ca5d84db538b47ed0610ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  childInteractionDialogue:
-  - 'I bet a tree this big weighs like a million billion pounds. '
-  adultInteractionDialogue:
-  - 'The trees here are so massive and sturdy. They don''t grow nearly this large
-    at home. '
-  elderlyInteractionDialogue:
-  - 'Only the best trees are picked for these wonderful houses, glad Sprig picked
-    a good one for himself. '
---- !u!60 &1832154154
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9,
-    type: 2}
-  m_PrefabInternal: {fileID: 844993490}
-  m_GameObject: {fileID: 1832154152}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: .693443298, y: 1.02171016}
-      - {x: .773886681, y: -.80611968}
-      - {x: -.520340919, y: -.799016714}
-      - {x: -.520905495, y: 1.03538084}
---- !u!4 &1832154155
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
-  m_PrefabInternal: {fileID: 844993490}
-  m_GameObject: {fileID: 1832154152}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.04001617, y: 2.66445303, z: -.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 603158327}
 --- !u!1001 &1945601305
 Prefab:
   m_ObjectHideFlags: 0
@@ -1676,6 +1670,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 603158327}
     m_Modifications:
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: elderlyInteractionDialogue.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6000000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
       propertyPath: m_Poly.m_Paths.Array.data[0].Array.size
       value: 6
@@ -1759,6 +1757,20 @@ Prefab:
     - target: {fileID: 100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
       propertyPath: m_Name
       value: PlankWalkway
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: childInteractionDialogue.Array.data[0]
+      value: My mom would never let me walk across something like this. Too bad she
+        isn't here!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: adultInteractionDialogue.Array.data[0]
+      value: 'I''ll be sure to watch my step here. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: elderlyInteractionDialogue.Array.data[0]
+      value: I've crossed these little planks many a time and never tripped. Not planning
+        on it now!
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
@@ -1951,13 +1963,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   childInteractionDialogue:
-  - 'I bet a tree this big weighs like a million billion pounds. '
+  - Ooh! Birdhouse! It's like the one I have at home.
   adultInteractionDialogue:
-  - 'The trees here are so massive and sturdy. They don''t grow nearly this large
-    at home. '
+  - This fellow has a pretty respectable birdhouse. Artisan crafted for sure.
   elderlyInteractionDialogue:
-  - 'Only the best trees are picked for these wonderful houses, glad Sprig picked
-    a good one for himself. '
+  - Nobody builds a birdhouse like Egbert.
 --- !u!60 &2104402844
 PolygonCollider2D:
   m_ObjectHideFlags: 0

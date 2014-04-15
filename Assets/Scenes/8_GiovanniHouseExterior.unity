@@ -233,13 +233,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   childInteractionDialogue:
-  - 'I bet a tree this big weighs like a million billion pounds. '
+  - 'Looks pretty empty. It''s nice though. '
   adultInteractionDialogue:
-  - 'The trees here are so massive and sturdy. They don''t grow nearly this large
-    at home. '
+  - Standard fare for mailboxes.
   elderlyInteractionDialogue:
-  - 'Only the best trees are picked for these wonderful houses, glad Sprig picked
-    a good one for himself. '
+  - 'I oughta mail Giovanni more often. '
 --- !u!60 &9666820
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -543,13 +541,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   childInteractionDialogue:
-  - 'I bet a tree this big weighs like a million billion pounds. '
+  - Ring ring ring ring ring. That's probably what it will sound like when I hit it
+    a bunch.
   adultInteractionDialogue:
-  - 'The trees here are so massive and sturdy. They don''t grow nearly this large
-    at home. '
+  - 'An old fashioned door bell. I can appreciate that. '
   elderlyInteractionDialogue:
-  - 'Only the best trees are picked for these wonderful houses, glad Sprig picked
-    a good one for himself. '
+  - I need to get one of these for my cottage back home.
 --- !u!60 &496286935
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -618,13 +615,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   childInteractionDialogue:
-  - 'I bet a tree this big weighs like a million billion pounds. '
+  - It's just a boring flowerbox.
   adultInteractionDialogue:
-  - 'The trees here are so massive and sturdy. They don''t grow nearly this large
-    at home. '
+  - Seems like the little flowers are well tended to.
   elderlyInteractionDialogue:
-  - 'Only the best trees are picked for these wonderful houses, glad Sprig picked
-    a good one for himself. '
+  - 'It''s nice to see those flowers again. '
 --- !u!60 &519700411
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -890,13 +885,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   childInteractionDialogue:
-  - 'I bet a tree this big weighs like a million billion pounds. '
+  - Please please please make a toot sound before I leave.
   adultInteractionDialogue:
-  - 'The trees here are so massive and sturdy. They don''t grow nearly this large
-    at home. '
+  - I wonder if it's still operaional.
   elderlyInteractionDialogue:
-  - 'Only the best trees are picked for these wonderful houses, glad Sprig picked
-    a good one for himself. '
+  - I promised I'd help Giovanni hook that sucker back up, I'll bring my tools next
+    time.
 --- !u!60 &790940808
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1139,6 +1133,19 @@ Prefab:
     - target: {fileID: 100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
       propertyPath: m_Name
       value: Doorbell
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: childInteractionDialogue.Array.data[0]
+      value: Ring ring ring ring ring. That's probably what it will sound like when
+        I hit it a bunch.
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: adultInteractionDialogue.Array.data[0]
+      value: 'An old fashioned door bell. I can appreciate that. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: elderlyInteractionDialogue.Array.data[0]
+      value: I need to get one of these for my cottage back home.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
@@ -1494,6 +1501,18 @@ Prefab:
       propertyPath: m_Name
       value: Mailbox
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: childInteractionDialogue.Array.data[0]
+      value: 'Looks pretty empty. It''s nice though. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: adultInteractionDialogue.Array.data[0]
+      value: Standard fare for mailboxes.
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: elderlyInteractionDialogue.Array.data[0]
+      value: 'I oughta mail Giovanni more often. '
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
   m_RootGameObject: {fileID: 9666817}
@@ -1569,6 +1588,19 @@ Prefab:
     - target: {fileID: 100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
       propertyPath: m_Name
       value: TrainWhistle
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: childInteractionDialogue.Array.data[0]
+      value: Please please please make a toot sound before I leave.
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: adultInteractionDialogue.Array.data[0]
+      value: I wonder if it's still operaional.
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: elderlyInteractionDialogue.Array.data[0]
+      value: I promised I'd help Giovanni hook that sucker back up, I'll bring my
+        tools next time.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
@@ -1684,13 +1716,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   childInteractionDialogue:
-  - 'I bet a tree this big weighs like a million billion pounds. '
+  - I want these going to my bedroom! Right now!
   adultInteractionDialogue:
-  - 'The trees here are so massive and sturdy. They don''t grow nearly this large
-    at home. '
+  - 'The most unconventional entryway I''ve ever seen. '
   elderlyInteractionDialogue:
-  - 'Only the best trees are picked for these wonderful houses, glad Sprig picked
-    a good one for himself. '
+  - I swear I'm going to build a train to go along these just to see the look on Giovanni's
+    face.
 --- !u!60 &1711239537
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1819,6 +1850,19 @@ Prefab:
     - target: {fileID: 100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
       propertyPath: m_Name
       value: TrainTracks
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: childInteractionDialogue.Array.data[0]
+      value: I want these going to my bedroom! Right now!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: adultInteractionDialogue.Array.data[0]
+      value: 'The most unconventional entryway I''ve ever seen. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: elderlyInteractionDialogue.Array.data[0]
+      value: I swear I'm going to build a train to go along these just to see the
+        look on Giovanni's face.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
@@ -2040,6 +2084,18 @@ Prefab:
     - target: {fileID: 100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
       propertyPath: m_Name
       value: Flowerbox
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: childInteractionDialogue.Array.data[0]
+      value: It's just a boring flowerbox.
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: adultInteractionDialogue.Array.data[0]
+      value: Seems like the little flowers are well tended to.
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
+      propertyPath: elderlyInteractionDialogue.Array.data[0]
+      value: 'It''s nice to see those flowers again. '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4b5df985a9cbc134489e389ce1cacfd9, type: 2}
