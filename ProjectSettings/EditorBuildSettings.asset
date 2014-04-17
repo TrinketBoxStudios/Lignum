@@ -33,3 +33,5 @@ EditorBuildSettings:
     path: Assets/Scenes/12_EndingScene.unity
   - enabled: 1
     path: Assets/Scenes/13_Credits.unity
+  - enabled: 1
+    path: Assets/Scenes/14_Transition.unity

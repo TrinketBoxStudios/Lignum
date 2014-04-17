@@ -15,6 +15,6 @@ public class PauseScreenScript : MonoBehaviour {
 
 	void QuitGame()
 	{
-		Application.LoadLevel("MainMenu");
+		Application.LoadLevel("1_MainMenu");
 	}
 }
