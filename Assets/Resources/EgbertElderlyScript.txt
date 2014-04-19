@@ -1,2 +1,19 @@
-R:This is a line one 
-P:This is a line two for seniors
+R:Oh, what a surprise!
+P:Hello, Egbert. I'm on my way to Giovanni's, but I wanted to drop by and tell you something first.
+R:Oh?
+P:Yes, it's this; I was wrong.
+P:It isn't enough to just get by. Egbert, you should follow your dreams of becoming an inventor.
+R:Is that what you did? Did you end up chasing your dreams?
+P:Yes, I opened my own store.
+R:Wow! How big was it? How many customers did it get?
+P:Well, I ended up having to close it, Egbert.
+R:... So, you're telling me to follow my dreams when your own fell apart? I mean, that's not exactly inspirational.
+P:But what mattered was that I tried.
+R:Even though you tried and didn't end up succeeding?
+P:Success is what you make it, Egbert. Never let someone else define your success!
+R:That's all very well for you to say...
+P:Hmm. Well, you don't have to listen to me, but think about what I said.
+P:I may have failed in your eyes, but I wouldn't exchange my experience for anything in the world.
+P:Don't be afraid of what other people might think of you.
+R:I just don't know.
+P:Someday, you might.

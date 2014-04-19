@@ -125,7 +125,7 @@ SpriteRenderer:
   m_SortingLayer: -3
   m_SortingOrder: 0
   m_SortingLayerID: 2196553743
-  m_Sprite: {fileID: 21300000, guid: d13642e37835f0b488bd6cc181ba86de, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4930220dc480a444cad1d41713eddeb3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &469057517
 MonoBehaviour:
@@ -310,7 +310,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fadeTime: 1
-  levelToLoad: 14_Credits2
+  levelToLoad: 1_MainMenu
 --- !u!212 &1069766102
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -439,7 +439,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
       propertyPath: levelToLoad
-      value: 14_Credits2
+      value: 1_MainMenu
       objectReference: {fileID: 0}
     - target: {fileID: 21200000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
       propertyPath: m_Sprite

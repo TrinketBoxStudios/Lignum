@@ -59,6 +59,7 @@ public class MusicBoxTransitionAnimation : MonoBehaviour {
 
 	void TransitionLevel()
 	{
+		GameStateManager.GetInstance().AdvanceAge();
 		FindObjectOfType<LevelTransitionManager>().ChangeLevel(levelToLoad);
 	}
 }

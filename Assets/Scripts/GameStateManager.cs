@@ -60,6 +60,11 @@ public class GameStateManager : MonoBehaviour
 		return currentAge;
 	}
 
+	public void PlayClip( AudioClip clip )
+	{
+		GetComponent<AudioSource>().PlayOneShot(clip);
+	}
+
 	private void PlaySound( string name )
 	{
 		_musicPlayer.PlaySoundByName(name, true);

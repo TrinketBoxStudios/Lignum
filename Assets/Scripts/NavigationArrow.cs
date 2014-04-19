@@ -6,6 +6,8 @@ public class NavigationArrow : MonoBehaviour {
 	public float fadeTime = 1.0f;
 	public string levelToLoad = "none";
 
+	public AudioClip clip = null;
+
 	private LevelTransitionManager _lvlTransitoner;
 
 	// Use this for initialization
@@ -18,5 +20,10 @@ public class NavigationArrow : MonoBehaviour {
 	void OnMouseDown()
 	{
 		_lvlTransitoner.ChangeLevel(levelToLoad);
+
+		if(clip != null)
+		{
+			GameStateManager.GetInstance().PlayClip(clip);
+		}
 	}
 }

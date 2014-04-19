@@ -1,18 +1,19 @@
-P:Oh a bird! Wait, that's not the one I'm looking for...
-R:Whoa there, what's wrong with Ferd? (He looks alright to me...)
-P:Nothing, I'm just looking for a different bird, sir.
-R:(Hey c'mon, don't call me "sir") Well, I know a thing or two about birds. What can I help you with?
-P:Actually... what do you know about dragons?
-R:Oh you wanna hear about dragons, do you? Beautiful creatures! Only vanquished by the bravest of knights!
-P:Ooooo...
-R:Ah yes, there's nothing better than settling down to a good fairy tale.
-P:Fairy tale?!
-R:Well yea, there are some great stories about dragons! I have some books if you want to borrow some-
-P:But dragons aren't stories! They're real, and I'm gonna be one when I grow up!
+P:Oh! A bird!
+R:Woah there, what's all the excitement about?
+P:Oh sorry, sir. I just saw the bird and got excited.
+R:(Hey, c'mon, don't call me "sir"...) Well, what can I help you with?
+P:Oh, well actually... I was wondering, do you have a purpose here, too?
+R:Here in the village? Well, of course. Everyone who lives here is given an assigned purpose. 
+R:It's quite a celebration when it's discovered in our young sprouts.
+P:Discovered?
+R:Well, sure. We keep a close eye on our sprouts until they show a skill that can benefit the village. 
+R:Then they are trained in what they are best in.
+P:Like that leafy guy becoming the Village Caretaker?
+R:Oh, you mean Sprig? Yup, just like that. He's quite the talented little guy. He was hand-chosen by Ol' Giovanni himself.
+P:Hmm... Well then, how do I find out what I'm good at?
 R:Ahh, you remind me of me when I was a kid. I wanted to be an inventor back then.
-P:Really? That's so cool! What have you invented?
-R:Actually, I became a ranger. It benefitted the village more.
+P:Really?! That's so cool. What have you invented?
+R:Actually... I became a ranger. I had some great skills in identifying wildlife, and it benefitted the village more.
 P:Oh.
-R:Weren't you looking for a bird when you came in here?
-P:Oh yea. It's small and white, and it sings a pretty song.
-R:Oh I know that bird! It usually hangs around Ol' Giovanni's place. You should go see him. Best of luck with the dragons, hope you find what you are looking for.
+R:Err, well, if you have any other questions, you could ask Giovanni himself. He's the one who decides everyone's purpose.
+R:He's a little bit farther up the tree.

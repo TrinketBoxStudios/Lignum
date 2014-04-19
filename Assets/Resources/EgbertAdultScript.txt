@@ -1,12 +1,13 @@
-P:Egbert? Hello?
-R:Whoa, hey there! There’s a face I haven’t seen in a while. How’s life been, man?
-P:Can’t complain too much, surviving, ya know?
-R:Glad to hear things are alright. And I mean as long as you are happy, that’s what really matters.
-P:You know, it doesn’t really seem like most people feel that way. I’d say that survival and getting by is more important for me right now.
-R:Oh, well… really? I mean, I try to keep things simple and I do what I like for the most part and that gets me by.
-P:Sure, but don’t you have any kind of responsibilities? Like paying bills or building a career?
-R:Well, of course I do! Who doesn’t? I have all kinds of things I have to worry about being a ranger and all. My job is fine and Ferd and I live comfortable lives. But, I just… I always think about things that I want to make. I always wonder what life would be like if I had found a way to invent things.
-P:I hear ya, man, but we gotta take care of #1. 
-P:We have to just make it through day by day, right?
-R:Is it really taking care of #1 if you are unhappy?
-R:No. You know what no. I don't have to do this. What am I really doing as a ranger anyway? Well, I mean I know it's important for the village, but someone else can do this. This shouldn't have to be just my burden.
+P:Hi, Egbert.
+R:Whoa, hey there! There's a face I haven't seen in a while. How's life been, man?
+P: Can't complain too much. Surviving, ya know?
+R:Glad to hear things are alright. And I mean as long as you're happy, that's what really matters.
+P:You know, it doesn't really seem like most people feel that way. I'd say that basic survival is the most important thing for me right now.
+R:Oh, well... really? I mean, I try to keep things simple and I do what I like for the most part and that gets me by.
+P:Sure, but don't you have any kind of responsibilities? Like paying bills or building a career?
+R:Well, of course I do! Who doesn't? I have all kinds of things I have to worry about being a ranger and all. My job is fine. Ferd and I live comfortable lives.
+R:But, I just... I always think about things that I want to make. I always wonder what life would be like if I had found a way to invent things.
+P:We can't think like that, man. We have to just make it through day by day, ya know?
+R:Yeah, I guess you're right. It's just hard to swallow sometimes.
+P:We'll just keep on keeping on, right?
+R:Right.

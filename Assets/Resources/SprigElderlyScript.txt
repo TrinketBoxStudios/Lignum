@@ -1,2 +1,24 @@
-R:This is a line one :P
-P:This is a line two for seniors
+P:(Here I am, once again. Everything looks familiar and different at the same time. Is it the forest that's changed, or is it me?)
+P:Hello there, Sprig.
+R:Oh! It's nice to see you. Listen, I finally finished my training! I'm officially the Junior Village Caretaker.
+P:Ha ha! I'm so glad for you, Sprig. Congratulations!
+R:What about you? Did you find your purpose?
+P:(Heh, same old Sprig. Youth never changes.)
+P:Well Sprig, how about I tell you about my life, and you tell me what you think?
+R:Hm. Yes, I can do that.
+P:Well, since I last saw you, I quit my job that I hated. I tried starting my own business - a small independent bakery.
+R:Wow! That all sounds pretty great.
+P:Well, ten years after I started out, I just couldn't keep the shop afloat. 
+P:I had to close it, sell everything I owned, and move back in with my parents.
+R:Oh...
+P:I ended up going back to a 9-5 desk job. But you know, it was different that time around. 
+P:My boss was nicer and my co-workers were friendly.
+P:But the most important thing was that I had a new perspective. I knew that I'd tried, which was more than most people ever have.
+R:But you still ended up right back where you started.
+P:Not quite, Sprig! I never stopped trying. 
+P:I never quit my job, either, but I started pursuing more goals and trying to better myself when I could.
+P:I learned how to play the violin. I bought a fixer-upper. I traveled as much as I could. And I learned to love...
+R:Oh! So you did meet someone and fall in love and have kids?
+P: Ha ha! Sprig, it was even more important than that. I learned to love who I was.
+R:... I guess I just don't get it at all.
+P:That's alright, Sprig. You can ask Giovanni for the answer someday.

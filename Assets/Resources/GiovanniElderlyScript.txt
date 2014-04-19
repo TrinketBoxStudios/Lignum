@@ -1,2 +1,13 @@
-P:Gee, this text sure could be implemented
-R:Quiet, jeeves.
+R:My, my! I've been waiting a long time for you.
+P:Ha ha! And I've been waiting a long time for this day.
+R:You've come so far from when I first met you as a sprout. 
+R:You've accumulated a lifetime's worth of experiences and memories. You've sought out much and you've lost much.
+R:Tell me, was it worth is?
+P:... I don't know if it was worth it.
+R:Oh?
+P:Yes. I don't know if it was worth it. 
+P:I don't know what would have happened if I'd never made a leap of faith, or if I'd done things just a little bit differently.
+P:I don't know how my life measures up in comparison or in balance. But the reason where I'm here today...
+P:...is because I'm okay with not knowing.
+R:Ha ha! Then at last, you understand. 
+R:I don't have any wisdom left to share with you. Open the door once more... You are almost at the end of your journey.

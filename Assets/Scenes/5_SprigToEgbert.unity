@@ -346,6 +346,10 @@ Prefab:
       propertyPath: m_Color.a
       value: .886274517
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: f638daba88abf9940a2229a556c0bc65, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
   m_RootGameObject: {fileID: 1567310202}
@@ -878,6 +882,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeTime: 1
   levelToLoad: 6_EgbertHouseExterior
+  clip: {fileID: 8300000, guid: 8a62c3f3cb0d45742a132fbea38d0f23, type: 3}
 --- !u!212 &1069766102
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1093,6 +1098,10 @@ Prefab:
       propertyPath: m_Color.b
       value: .583261251
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 8a62c3f3cb0d45742a132fbea38d0f23, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
   m_RootGameObject: {fileID: 1069766099}
@@ -1324,6 +1333,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeTime: 1
   levelToLoad: 3_SprigHouseExterior
+  clip: {fileID: 8300000, guid: f638daba88abf9940a2229a556c0bc65, type: 3}
 --- !u!212 &1567310205
 SpriteRenderer:
   m_ObjectHideFlags: 0

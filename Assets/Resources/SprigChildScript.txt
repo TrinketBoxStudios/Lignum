@@ -1,13 +1,12 @@
-P:Hey did you see a bird just now?!
-R:A bird? There are lots of birds in the forest.
-P:No, I mean a singing bird! I have to find it again to hear that song it was singing.
-R:Hmmm, well... that's nice, but I'm training right now.
-P:Training? Really? What for?
-R:I'm the Junior Village Caretaker. I'm learning how to take care of the village.
-P:What is that, like a boy scout or something?
-R:What, no! It's my assigned purpose. It's a big deal. What about you?
-P:Uhh.. uhh.. I'm going to be a dragon!
-R:We're not playing pretend!
-P:Dragons aren't pretend!
-R:Whatever, weird dragon-kid. If you're still looking for that bird, you should go talk to Egbert.
-R:He knows all sorts of stuff about birds. Though if you ask me, you probably have more important things to worry about.
+P:Ahh! (It moved!)
+R:Ahhh!
+P:(It spoke!) What the heck are you?!
+R:How rude! I'm the Junior Village Caretaker in training!
+P:Uh, what is that, like a boy scout or something?
+R:What, no! 
+R:When I grow up, I am going to take care of the village, the forest, and everyone who lives here.
+R:It's my purpose in the village. Haven't you had yours assigned to you?
+P:Uh, I don't know. Should I have?
+R:Well, I would think so.
+R:Maybe go ask my neighbor Egbert for your purpose. He's an adult, he knows about that kind of thing.
+R:If you ask me, there's nothing more important than finding your purpose.

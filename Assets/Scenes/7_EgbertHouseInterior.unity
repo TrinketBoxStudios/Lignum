@@ -370,6 +370,10 @@ Prefab:
       propertyPath: m_Color.b
       value: .992647052
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 71cf44a9c98065747b347b25358af7a6, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 89e25d0f9f67d454d8a990819b128705, type: 2}
   m_RootGameObject: {fileID: 274253916}
@@ -419,6 +423,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeTime: 1
   levelToLoad: 6_EgbertHouseExterior
+  clip: {fileID: 8300000, guid: 71cf44a9c98065747b347b25358af7a6, type: 3}
 --- !u!212 &274253919
 SpriteRenderer:
   m_ObjectHideFlags: 0

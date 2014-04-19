@@ -1,14 +1,16 @@
-R:Well, well, if it isn’t the dragon-kid. Or should I call you Mr. Dragon now? 
-P:Uh, hey Sprig. Please don’t call me Mr. Dragon. So, uhh are you still in training? 
-R:Yes! I learn so much from Giovanni every day. Yesterday I learned about taking care of mushrooms in the forest!
-P:That sounds nice (it really does...).
-R:So… what’s it like? I mean being a grown up now?
-P:Uhh… Well, it’s fine, I guess. 
-R:No, I mean, what’s it like having a house? And a family and a job and stuff?
-P:Well… I don’t really have all of those things just yet.
-R:What do you mean? You’re old now. You must have some of those things?
-P:For one, I’m only 30. For two, I have a job and an apartment. No house, no wife or kids (not even a girlfriend at the moment, thanks for the reminder). 
-R:That’s weird isn’t it? That’s stuff grown-ups are supposed to do.
-P:Well kid, things don’t always work out the way you think they will. I’m doing what I need to do to get by, and that’s all I can really do right now.
-R:Still seems weird.
-P:Well.. that's how it is. It was nice seeing you, Sprig. Best of luck with your training.
+P:(It's been years since I've been here, but everything feels exactly the same...)
+R:Oh! It's you! It's been a long time.
+P:Uh, hey Sprig. Yeah, it's been a while. Are you still in training?
+R:Yes! I learn so much from Giovanni every day. Yesterday I learned about taking care of mushrooms in the forest.
+P:That sounds nice, (it really does...).
+R:So... what's it like? I mean, being a grown-up now?
+P:Uhh... Well, it's fine, I guess.
+R:No, I mean, what's it like having a house? And a family and a job and stuff?
+P:Well... I don't really have all of those things just yet.
+R:What do you mean? You're old now. You must have some of those things.
+P:For one, I'm 28. For two, I have a job and an apartment. No house, no wife or kids.
+R:That's weird, isn't it? That's stuff grown-ups are supposed to do.
+P:(Well, it's nice to see Sprig hasn't changed much.) Things don't always work out the way you think they will. 
+P:I'm doing what I need to do to get by, that's all.
+R:Oh, okay.
+P:(Stop judging me, kid!) Well... that's how it is. It was nice seeing you, Sprig. Best of luck with your training.
