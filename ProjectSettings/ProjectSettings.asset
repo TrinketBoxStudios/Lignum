@@ -12,10 +12,10 @@ PlayerSettings:
   accelerometerFrequency: 60
   companyName: TrinketBox
   productName: Lignum
-  defaultCursor: {fileID: 2800000, guid: 84ac5cde10f85e94986b8e857af9c35c, type: 3}
+  defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
-  defaultScreenWidth: 1024
-  defaultScreenHeight: 768
+  defaultScreenWidth: 1920
+  defaultScreenHeight: 1080
   defaultScreenWidthWeb: 1280
   defaultScreenHeightWeb: 720
   m_RenderingPath: 1
@@ -35,7 +35,7 @@ PlayerSettings:
   use32BitDisplayBuffer: 1
   use24BitDepthBuffer: 1
   defaultIsFullScreen: 1
-  defaultIsNativeResolution: 0
+  defaultIsNativeResolution: 1
   runInBackground: 0
   captureSingleScreen: 0
   Override IPod Music: 0
